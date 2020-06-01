@@ -1,0 +1,676 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-9="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#belongsTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#belongsTo">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#consistsOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#ChampionshipTour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#consistsOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#consistsOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#ChampionshipTour"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#hasWinner -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#hasWinner">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#isWinnerOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#includes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#includes">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#isPlayedAt"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#isPlayedAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#isPlayedAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#isPlayedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#isPlayedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#plays"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Sportsman"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#isWinnerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#isWinnerOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#organizedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#organizedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#organizes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#ChampionshipTour"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#organizes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#organizes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#ChampionshipTour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#plays -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#plays">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Sportsman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#playsFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#playsFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#TeamMember"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#responsibleFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#responsibleFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Trainer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#takesPartIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#takesPartIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#ChampionshipTour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BasketballTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BasketballTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#ChampionshipTour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#ChampionshipTour">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#organizedBy"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#consistsOf"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#DebutTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#DebutTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FootballTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FootballTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Footballer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Footballer">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#playsFor"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FootballTeam"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#TeamMember"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#InterestingTournament -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#InterestingTournament">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#hasWinner"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#DebutTeam"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Master -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Master">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Sportsman"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Trainer"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#MultiSportTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#MultiSportTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#PopularSport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#PopularSport">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#isPlayedAt"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#RugbyTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#RugbyTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SmallSportEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SmallSportEvent">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#includes"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#isPlayedAt"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Sportsman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Sportsman">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#plays"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#StrongAthlete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#StrongAthlete">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#TeamMember"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#plays"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Sportsman"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#takesPartIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#ChampionshipTour"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#TeamMember -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#TeamMember">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#playsFor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Sportsman"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#TeamSport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#TeamSport">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#hasWinner"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#belongsTo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#ChampionshipTour"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#ChampionshipTour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Trainer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Trainer">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#responsibleFor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#VolleyballTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#VolleyballTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#class1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#class1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#class2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#class2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BasketballTeam"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#DebutTeam"/>
+        <takesPartIn rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BOct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BOct -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BOct">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#ChampionshipTour"/>
+        <consistsOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BOct1"/>
+        <consistsOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BOct2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BOct1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BOct1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+        <hasWinner rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#B"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BOct2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BOct2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BV -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BV">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BasketballTeam"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#VolleyballTeam"/>
+        <takesPartIn rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVNov"/>
+        <takesPartIn rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVOct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVNov -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVNov">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#ChampionshipTour"/>
+        <consistsOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVNov1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVNov1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVNov1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVOct -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVOct">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#ChampionshipTour"/>
+        <consistsOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVOct1"/>
+        <consistsOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVOct2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVOct1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVOct1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+        <hasWinner rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVOct2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVOct2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Bob -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Bob">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Sportsman"/>
+        <plays rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FootballTeam"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#RugbyTeam"/>
+        <takesPartIn rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FROct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FROct -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FROct">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#ChampionshipTour"/>
+        <consistsOf rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FROct1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FROct1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FROct1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tournament"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Kate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Kate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Sportsman"/>
+        <plays rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame2"/>
+        <plays rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame3"/>
+        <plays rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame4"/>
+        <responsibleFor rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Mary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Mary">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Trainer"/>
+        <responsibleFor rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVNov1"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVOct1"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVOct2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVNov1"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BVOct2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FROct1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BOct2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BOct1"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#BOct2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#FROct1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Tim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#Sportsman"/>
+        <plays rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame5"/>
+        <plays rdf:resource="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#SportGame6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#i -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-9#i"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.15.2020-01-28T21:55:37Z) https://github.com/owlcs/owlapi -->
+

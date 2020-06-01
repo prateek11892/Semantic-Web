@@ -1,0 +1,417 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://w3id.org/daselab/onto/event</Import>
+    <Import>http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl</Import>
+    <Declaration>
+        <Class IRI="#AddedOn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CastRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DirectorRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Duration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShowId"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Year"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#addedOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atPlace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDuration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasShowId"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#listedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#releasedYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CastName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DirectorName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ShowId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Year"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+        <ObjectMaxCardinality cardinality="5">
+            <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole"/>
+            <Class IRI="#DirectorRole"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Title"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#listedIn"/>
+            <Class IRI="#Genre"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Title"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasDescription"/>
+            <Class IRI="#Description"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Title"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasDuration"/>
+            <Class IRI="#Duration"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Title"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasRating"/>
+            <Class IRI="#Rating"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Title"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasShowId"/>
+            <Class IRI="#ShowId"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Title"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasType"/>
+            <Class IRI="#Type"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Title"/>
+        <ObjectMaxCardinality cardinality="5">
+            <ObjectProperty IRI="#atPlace"/>
+            <Class IRI="#Place"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AddedOn"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CastRole"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Description"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DirectorRole"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Duration"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genre"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Place"/>
+        <Class IRI="http://w3id.org/daselab/onto/event#SpatioTemporalExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rating"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShowId"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time"/>
+        <Class IRI="http://w3id.org/daselab/onto/event#SpatioTemporalExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title"/>
+        <Class IRI="http://w3id.org/daselab/onto/event#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/classification.owl#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Year"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#addedOn"/>
+        <ObjectProperty IRI="http://w3id.org/daselab/onto/event#hasSpatioTemporalExtent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#atPlace"/>
+        <ObjectProperty IRI="http://w3id.org/daselab/onto/event#hasSpatioTemporalExtent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#releasedYear"/>
+        <ObjectProperty IRI="http://w3id.org/daselab/onto/event#hasSpatioTemporalExtent"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasShowId"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#addedOn"/>
+        <Class IRI="http://w3id.org/daselab/onto/event#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atPlace"/>
+        <Class IRI="http://w3id.org/daselab/onto/event#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDescription"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDuration"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRating"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasShowId"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasType"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#listedIn"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#releasedYear"/>
+        <Class IRI="http://w3id.org/daselab/onto/event#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#addedOn"/>
+        <Class IRI="#AddedOn"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#atPlace"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDescription"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDuration"/>
+        <Class IRI="#Duration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRating"/>
+        <Class IRI="#Rating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasShowId"/>
+        <Class IRI="#ShowId"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasType"/>
+        <Class IRI="#Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#listedIn"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#releasedYear"/>
+        <Class IRI="#Year"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CastName"/>
+        <Class IRI="#CastRole"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Country"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Date"/>
+        <Class IRI="http://w3id.org/daselab/onto/event#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Description"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DirectorName"/>
+        <Class IRI="#DirectorRole"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Duration"/>
+        <Class IRI="#Duration"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Genre"/>
+        <Class IRI="#Genre"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Rating"/>
+        <Class IRI="#Rating"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ShowId"/>
+        <Class IRI="#ShowId"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Type"/>
+        <Class IRI="#Type"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Year"/>
+        <Class IRI="http://w3id.org/daselab/onto/event#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#CastName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Country"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Date"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DirectorName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Duration"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Genre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Rating"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ShowId"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Year"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
