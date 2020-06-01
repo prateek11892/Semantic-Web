@@ -1,0 +1,114 @@
+@prefix synonym: <http://api.conceptnet.io/r/Synonym> .
+@prefix sense_label: <http://api.conceptnet.io/sense_label> .
+@prefix language: <http://api.conceptnet.io/language> .
+@prefix relatedTo: <http://api.conceptnet.io/r/RelatedTo> .
+
+<http://api.conceptnet.io/c/en/example/n/wn/cognition>
+        language:     "en" ;
+        synonym:      <http://api.conceptnet.io/c/en/exemplar/n/wn/cognition> ;
+        sense_label:  "n, cognition" .
+
+<http://api.conceptnet.io/c/eu/lezio/n/wn/communication>
+        language:     "eu" ;
+        synonym:      <http://api.conceptnet.io/c/en/example/n/wn/communication> ;
+        sense_label:  "n, communication" .
+
+<http://api.conceptnet.io/c/sq/ilustrim/n/wn/cognition>
+        language:     "sq" ;
+        synonym:      <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        sense_label:  "n, cognition" .
+
+<http://api.conceptnet.io/c/en/exemplar/n/wn/cognition>
+        language:     "en" ;
+        sense_label:  "n, cognition" .
+
+<http://api.conceptnet.io/c/ja/%C3%A8%C2%BB%C5%92%C3%A7%C2%AF%E2%80%9E/n>
+        language:     "ja" ;
+        synonym:      <http://api.conceptnet.io/c/en/example> ;
+        sense_label:  "n" .
+
+<http://api.conceptnet.io/c/en/example>
+        language:  "en" .
+
+<http://api.conceptnet.io/c/fa/%C3%99%E2%80%A6%C3%98%C2%AB%C3%99%E2%80%9E/n/wn/cognition>
+        language:     "fa" ;
+        synonym:      <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        sense_label:  "n, cognition" .
+
+<http://api.conceptnet.io/c/ja/%C3%A4%C2%BE%E2%80%B9%C3%A8%C2%AD%E2%80%B0/n>
+        language:     "ja" ;
+        synonym:      <http://api.conceptnet.io/c/en/example> ;
+        sense_label:  "n" .
+
+<http://api.conceptnet.io/c/fi/havainto_opetus/n/wn/communication>
+        language:     "fi" ;
+        synonym:      <http://api.conceptnet.io/c/en/example/n/wn/communication> ;
+        sense_label:  "n, communication" .
+
+<http://api.conceptnet.io/c/zh/%C3%A5%C2%BC%E2%80%A2%C3%A4%C2%BB%C2%A5%C3%A7%E2%80%9A%C2%BA%C3%A6%C6%92%E2%80%A2/n/wn/communication>
+        language:     "zh" ;
+        synonym:      <http://api.conceptnet.io/c/en/example/n/wn/communication> ;
+        sense_label:  "n, communication" .
+
+<http://api.conceptnet.io/c/fa/%C3%99%CB%86%C3%99%E2%80%A1%C3%99%E2%80%9E%C3%99%E2%80%A1/n/wn/cognition>
+        language:     "fa" ;
+        synonym:      <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        sense_label:  "n, cognition" .
+
+<http://api.conceptnet.io/c/zh/%C3%A4%C2%BE%E2%80%B9%C3%A5%C2%AD?/n/wn/cognition>
+        language:     "zh" ;
+        synonym:      <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        sense_label:  "n, cognition" .
+
+<http://api.conceptnet.io/c/es/ejemplo/n/wn/cognition>
+        language:     "es" ;
+        synonym:      <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        sense_label:  "n, cognition" .
+
+<http://api.conceptnet.io/c/en/example/n/wn/communication>
+        language:     "en" ;
+        sense_label:  "n, communication" .
+
+<http://api.conceptnet.io/c/ja/%C3%A5%C2%AE%C5%B8%C3%A4%C2%BE%E2%80%B9/n/wn/cognition>
+        language:     "ja" ;
+        synonym:      <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        sense_label:  "n, cognition" .
+
+<http://api.conceptnet.io/c/ja/%C3%A6%C2%A7%CB%9C/n>
+        language:     "ja" ;
+        synonym:      <http://api.conceptnet.io/c/en/example> ;
+        sense_label:  "n" .
+
+<http://api.conceptnet.io/c/ja/%C3%A7%C2%AF%E2%80%9E/n>
+        language:     "ja" ;
+        synonym:      <http://api.conceptnet.io/c/en/example> ;
+        sense_label:  "n" .
+
+<http://api.conceptnet.io/c/ja/%C3%A5%C2%BC%E2%80%A2%C3%A5?%CB%86/n/jmdict/1>
+        language:     "ja" ;
+        synonym:      <http://api.conceptnet.io/c/en/example> ;
+        sense_label:  "n" .
+
+<http://api.conceptnet.io/c/en/instance/n/wn/cognition>
+        language:     "en" ;
+        synonym:      <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        sense_label:  "n, cognition" .
+
+<http://api.conceptnet.io/c/ja/%C3%A8%C2%A6%E2%80%B9%C3%A6%C5%93%C2%AC>
+        language:  "ja" ;
+        synonym:   <http://api.conceptnet.io/c/en/example> .
+
+<http://api.conceptnet.io/c/en/exemplify/v>
+        language:     "en" ;
+        relatedTo:    <http://api.conceptnet.io/c/en/example> ;
+        sense_label:  "v" .
+
+<http://api.conceptnet.io/c/ja/%C3%A5%C2%BC%E2%80%A2%C3%A5?%CB%86%C3%A3?%E2%80%9E/n/jmdict/1>
+        language:     "ja" ;
+        synonym:      <http://api.conceptnet.io/c/en/example> ;
+        sense_label:  "n" .
+
+<http://api.conceptnet.io/c/fi/esimerkki/n/wn/cognition>
+        language:     "fi" ;
+        synonym:      <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        sense_label:  "n, cognition" .

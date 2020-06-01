@@ -1,0 +1,1222 @@
+@prefix movie: <http://www.example.org/type/movie> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix semweb: <http://www.example.org/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix tvshow: <http://www.example.org/type/tvshow> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix type:  <http://www.example.org/type> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+semweb:Suckseed  a              semweb:movie ;
+        semweb:hasCast          "Jirayu La-ongmanee" , "Thawat Pornrattanaprasert" , "Pachara Chirathivat" , "Nattasha Nauljam" ;
+        semweb:hasCountry       "Thailand" ;
+        semweb:hasDate_added    "2018" , "September 5" ;
+        semweb:hasDescription   "Ped forms a band with his friend to impress her. Romantic rivalries bloom after the talented Ern joins the group." , "When his boyhood crush Ern returns" ;
+        semweb:hasDirector      "Chayanop Boonprakob" ;
+        semweb:hasDuration      "130 min" ;
+        semweb:hasListed_in     "International Movies" , "Comedies" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2011" ;
+        semweb:hasShow_id       80158839 .
+
+<http://www.example.org/The%20Heretics>
+        a                       semweb:movie ;
+        semweb:hasCast          "Nina Richmond" , "Jorja Cadence" , "Nina Kiri" , "Ry Barrett" , "Will King" ;
+        semweb:hasCountry       "Canada" ;
+        semweb:hasDate_added    "2019" , "September 4" ;
+        semweb:hasDescription   "A withdrawn young woman hunted by a malicious cult is abducted by a brooding stranger and undergoes a bizarre transformation." ;
+        semweb:hasDirector      "Chad Archibald" ;
+        semweb:hasDuration      "88 min" ;
+        semweb:hasListed_in     "Horror Movies" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       81173255 .
+
+<http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Comics%20of%20India>
+        a                       semweb:movie ;
+        semweb:hasCast          "Baba Sehgal" , "Smita Malhotra" , "Damandeep Singh Baggan" ;
+        semweb:hasDate_added    "September 8" , "2017" ;
+        semweb:hasDescription   "and a king assigns impossible tasks to his minister." , "In three comic-strip-style tales" , "a demon is released from captivity" , "a boy tries to sell wisdom" ;
+        semweb:hasDirector      "Tilak Shetty" ;
+        semweb:hasDuration      "61 min" ;
+        semweb:hasListed_in     "Children & Family Movies" ;
+        semweb:hasRating        "TV-Y7" ;
+        semweb:hasRelease_year  "2012" ;
+        semweb:hasShow_id       80182482 .
+
+<http://www.example.org/Fire%20Chasers>
+        a                       semweb:tvshow ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "2017" , "September 8" ;
+        semweb:hasDescription   "brave backcountry firefighters race to put out the flames" , "As California's 2016 fire season rages" , "protect homes and save lives in this docuseries." ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "Docuseries" , "Science & Nature TV" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       80117902 .
+
+<http://www.example.org/The%20Most%20Assassinated%20Woman%20in%20the%20World>
+        a                       semweb:movie ;
+        semweb:hasCast          "Eric Godon" , "Jean-Michel Balthazar" , "Julie Recoing" , "Niels Schneider" , "AndrÃƒÂ© Wilms" , "Michel Fau" , "Anna Mouglalis" , "Maya Coline" , "Constance DollÃƒÂ©" , "Sissi Duparc" ;
+        semweb:hasCountry       "United States" , "United Kingdom" , "Belgium" ;
+        semweb:hasDate_added    "2018" , "September 7" ;
+        semweb:hasDescription   "an actress famous for her gory death scenes at the Grand Guignol Theater contends with a mysterious stalker and ghosts from her past." , "In 1930s Paris" ;
+        semweb:hasDirector      "Franck RibiÃƒÂ¨re" ;
+        semweb:hasDuration      "102 min" ;
+        semweb:hasListed_in     "International Movies" , "Thrillers" , "Dramas" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       80159586 .
+
+semweb:Single  a                semweb:movie ;
+        semweb:hasCast          "Pandji Pragiwaksono" , "Rinna Hassim" , "Dede Yusuf" , "Raditya Dika" , "Tinna Harahap" , "Pevita Pearce" , "Babe Cabita" , "Elvira Devinamira" , "Chandra Liow" , "Annisa Rawles" , "Dewi Hughes" ;
+        semweb:hasCountry       "Indonesia" ;
+        semweb:hasDate_added    "2018" , "September 28" ;
+        semweb:hasDescription   "a somewhat pathetic bachelor sets his sights on finding a date for the wedding of his younger" , "Unemployed and immature" , "more successful brother." ;
+        semweb:hasDirector      "Raditya Dika" ;
+        semweb:hasDuration      "127 min" ;
+        semweb:hasListed_in     "Comedies" , "Romantic Movies" , "International Movies" ;
+        semweb:hasRating        "TV-PG" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       81002864 .
+
+<http://www.example.org/Carrie%20Pilby>
+        a                       semweb:movie ;
+        semweb:hasCast          "Colin O'Donoghue" , "William Moseley" , "Bel Powley" , "Nathan Lane" , "Jason Ritter" , "Gabriel Byrne" , "Desmin Borges" , "Vanessa Bayer" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "2017" , "September 5" ;
+        semweb:hasDescription   "get a job and Ã¢â‚¬â€œ maybe Ã¢â‚¬â€œ even go on a date." , "A socially awkward 19-year-old genius makes big plans to step out of her shell and make a friend" ;
+        semweb:hasDirector      "Susan Johnson" ;
+        semweb:hasDuration      "98 min" ;
+        semweb:hasListed_in     "Dramas" , "Comedies" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2016" ;
+        semweb:hasShow_id       80147760 .
+
+<http://www.example.org/Transformers%20Prime>
+        a                       semweb:tvshow ;
+        semweb:hasCast          "Ernie Hudson" , "Tania Gunadi" , "Daran Norris" , "Andy Pessoa" , "Frank Welker" , "Steve Blum" , "Josh Keaton" , "Kevin Michael Richardson" , "Peter Cullen" , "Sumalee Montano" , "Jeffrey Combs" , "Will Friedle" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "2018" , "September 8" ;
+        semweb:hasDescription   "the Autobots once again protect Earth from the onslaught of the Decepticons and their leader" , "Megatron." , "With the help of three human allies" ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "Kids' TV" ;
+        semweb:hasRating        "TV-Y7-FV" ;
+        semweb:hasRelease_year  "2013" ;
+        semweb:hasShow_id       70234439 .
+
+<http://www.example.org/Article%2015>
+        a                       semweb:movie ;
+        semweb:hasCast          "Nassar" , "Kumud Mishra" , "Aakash Dabhade" , "Manoj Pahwa" , "Sushil Pandey" , "Isha Talwar" , "Mohammed Zeeshan Ayyub" , "Ayushmann Khurrana" , "Sayani Gupta" , "Subhrajyoti Barat" ;
+        semweb:hasCountry       "India" ;
+        semweb:hasDate_added    "September 6" , "2019" ;
+        semweb:hasDescription   "The grim realities of caste discrimination come to light as an entitled but upright city cop ventures into IndiaÃ¢â‚¬â„¢s heartland to investigate a murder." ;
+        semweb:hasDirector      "Anubhav Sinha" ;
+        semweb:hasDuration      "125 min" ;
+        semweb:hasListed_in     "Thrillers" , "Dramas" , "International Movies" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2019" ;
+        semweb:hasShow_id       81154455 .
+
+<http://www.example.org/The%20Spy>
+        a                       semweb:tvshow ;
+        semweb:hasCast          "Hadar Ratzon Rotem" , "Sacha Baron Cohen" , "Alexander Siddig" , "Noah Emmerich" , "Waleed Zuaiter" , "Nassim Lyes" ;
+        semweb:hasCountry       "France" ;
+        semweb:hasDate_added    "September 6" , "2019" ;
+        semweb:hasDescription   "In the 1960s" , "Israeli clerk-turned-secret agent Eli Cohen goes deep undercover inside Syria on a perilous" , "years-long mission to spy for Mossad." ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "International TV Shows" , "TV Dramas" , "TV Thrillers" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2019" ;
+        semweb:hasShow_id       80178151 .
+
+<http://www.example.org/The%20Eighties>
+        a                       semweb:tvshow ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "2018" , "September 30" ;
+        semweb:hasDescription   "technology and culture of today." , "This nostalgic documentary series relives the 1980s from a variety of angles" , "exploring its impact on the politics" ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "Docuseries" ;
+        semweb:hasRating        "TV-PG" ;
+        semweb:hasRelease_year  "2016" ;
+        semweb:hasShow_id       80128317 .
+
+<http://www.example.org/Sierra%20Burgess%20Is%20A%20Loser>
+        a                       semweb:movie ;
+        semweb:hasCast          "Alan Ruck" , "Kristine Froseth" , "Shannon Purser" , "Mary Pat Gleason" , "Alice Lee" , "Loretta Devine" , "Lea Thompson" , "Noah Centineo" , "RJ Cyler" , "Giorgia Whigham" , "Chrissy Metz" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "2018" , "September 7" ;
+        semweb:hasDescription   "A wrong-number text sparks a virtual romance between a smart but unpopular teen and a sweet jock who thinks he's talking to a gorgeous cheerleader." ;
+        semweb:hasDirector      "Ian Samuels" ;
+        semweb:hasDuration      "106 min" ;
+        semweb:hasListed_in     "Comedies" , "Romantic Movies" ;
+        semweb:hasRating        "PG-13" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       80239639 .
+
+semweb:Lovesick  a              semweb:tvshow ;
+        semweb:hasCast          "Nungira Hanwutinanon" , "Phumphothingam Nawat" , "Kongyingyong Chonlathorn" , "Charnmanoon Pannin" , "Chindavanich Primrose" , "Luangsodsai Anupart" , "Nontapan Chuenwarin" , "Ausavaterakul Ausavapat" , "Sirikiet Saejea" , "Nuchanart Veerakaarn" ;
+        semweb:hasDate_added    "2018" , "September 3" ;
+        semweb:hasDescription   "Love and academics get complicated at an all-male college that happens to be located next to an all-female high school." ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "Romantic TV Shows" , "International TV Shows" , "TV Dramas" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2014" ;
+        semweb:hasShow_id       80184358 .
+
+<http://www.example.org/Paul%20Hollywood's%20Big%20Continental%20Road%20Trip>
+        a                       semweb:tvshow ;
+        semweb:hasCast          "Paul Hollywood" ;
+        semweb:hasCountry       "United Kingdom" ;
+        semweb:hasDate_added    "September 29" , "2017" ;
+        semweb:hasDescription   "Italy and Germany." , "Gear up for a fast-paced journey as celebrity chef and avid auto enthusiast Paul Hollywood takes in the cars and culture of France" ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "British TV Shows" , "Docuseries" , "International TV Shows" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       80199032 .
+
+<http://www.example.org/Satu%20Hari>
+        a                       semweb:tvshow ;
+        semweb:hasCast          "Remy Ishak" , "Sara Ali" , "Rita Rudaini" , "Mirza Salihovic" , "Miller Khan" , "Hafizul Kamal" ;
+        semweb:hasDate_added    "2017" , "September 29" ;
+        semweb:hasDescription   "until fate forces him to choose between his new life and old loyalty." , "A man haunted by his wife's affair moves to Sarajevo and starts to love again" ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "TV Dramas" , "International TV Shows" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2014" ;
+        semweb:hasShow_id       80180449 .
+
+<http://www.example.org/Joaqu%C3%83%C2%ADn%20Reyes:%20Una%20y%20no%20m%C3%83%C2%A1s>
+        a                       semweb:movie ;
+        semweb:hasCast          "JoaquÃƒÂ­n Reyes" ;
+        semweb:hasDate_added    "September 8" , "2017" ;
+        semweb:hasDescription   "bathroom habits" , "Comedian and celebrity impersonator JoaquÃƒÂ­n Reyes decides to be his zesty self for a night of stories about buses" , "royalty and more." ;
+        semweb:hasDirector      "JosÃƒÂ© Miguel Contreras" ;
+        semweb:hasDuration      "78 min" ;
+        semweb:hasListed_in     "Stand-Up Comedy" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       80169755 .
+
+<http://www.example.org/Made%20in%20Mexico>
+        a                       semweb:tvshow ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "2018" , "September 28" ;
+        semweb:hasDescription   "These Mexico City socialites may lead opulent lives" , "but a peek behind the curtain reveals a tangled web of intrigue" , "envy and personal struggles." ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "Reality TV" , "Spanish-Language TV Shows" , "International TV Shows" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       80201933 .
+
+<http://www.example.org/Our%20Souls%20at%20Night>
+        a                       semweb:movie ;
+        semweb:hasCast          "Matthias Schoenaerts" , "Robert Redford" , "Iain Armitage" , "Bruce Dern" , "Jane Fonda" , "Phyllis Somerville" , "Judy Greer" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "2017" , "September 29" ;
+        semweb:hasDescription   "a real romance begins to blossom." , "After widowed neighbors Addie and Louis begin sleeping in bed together platonically to alleviate their loneliness" ;
+        semweb:hasDirector      "Ritesh Batra" ;
+        semweb:hasDuration      "103 min" ;
+        semweb:hasListed_in     "Dramas" , "Romantic Movies" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       80104068 .
+
+<http://www.example.org/Bangkok%20Traffic%20(Love)%20Story>
+        a                       semweb:movie ;
+        semweb:hasCast          "Sirin Horwang" , "Charlie Trairat" , "Ungsumalynn Sirapatsakmetha" , "Taksaorn Paksukcharern" , "Theeradej Wongpuapan" , "Kazuki Yano" , "Panissara Phimpru" ;
+        semweb:hasCountry       "Thailand" ;
+        semweb:hasDate_added    "2018" , "September 5" ;
+        semweb:hasDescription   "a 30-year-old woman struggles against all odds to pursue true love." , "After an encounter with an engineer working the night shift for the city train" ;
+        semweb:hasDirector      "Adisorn Tresirikasem" ;
+        semweb:hasDuration      "126 min" ;
+        semweb:hasListed_in     "Comedies" , "International Movies" , "Romantic Movies" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2009" ;
+        semweb:hasShow_id       81016044 .
+
+semweb:Saawan  a                semweb:movie ;
+        semweb:hasCast          "Ali Hafiz" , "Imran Aslam" , "Arif Bahlim" , "Sohail Malik" , "Saleem Mairaj" , "Daniyal Yousuf" , "Karam Hussain" , "Najiba Faiz" ;
+        semweb:hasCountry       "Pakistan" ;
+        semweb:hasDate_added    "2019" , "September 4" ;
+        semweb:hasDescription   "Outcast from society and left to die in the wilderness" , "a young boy with polio embarks on a journey to connect with his mother. Based on a true story." ;
+        semweb:hasDirector      "Farhan Alam" ;
+        semweb:hasDuration      "128 min" ;
+        semweb:hasListed_in     "Dramas" , "Independent Movies" , "International Movies" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2016" ;
+        semweb:hasShow_id       81160036 .
+
+<http://www.example.org/Ee%20Nagaraniki%20Emaindi>
+        a                       semweb:movie ;
+        semweb:hasCast          "Vishwaksen Naidu" , "Abhinav Gomatam" , "Anisha Ambrose" , "Simran Choudhary" , "Venkatesh Kakumanu" , "Sushanth Reddy" ;
+        semweb:hasCountry       "India" ;
+        semweb:hasDate_added    "2019" , "September 6" ;
+        semweb:hasDescription   "In Goa and in desperate need of cash" , "four childhood friends get another shot at making their long-abandoned dreams of becoming filmmakers come true." ;
+        semweb:hasDirector      "Tharun Bhascker" ;
+        semweb:hasDuration      "133 min" ;
+        semweb:hasListed_in     "Comedies" , "International Movies" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       81052275 .
+
+<http://www.example.org/The%203rd%20Eye>
+        a                       semweb:movie ;
+        semweb:hasCast          "Afdhal Yusman" , "Shofia Shireen" , "Jessica Mila" , "Citra Prima" , "Voke Victoria" , "Bianca Hello" , "Derry Drajat" , "Anita Hara" , "Epy Kusnandar" , "Denny Sumargo" ;
+        semweb:hasCountry       "Indonesia" ;
+        semweb:hasDate_added    "September 28" , "2018" ;
+        semweb:hasDescription   "who opens her own eyes to the vengeful ghosts haunting their childhood home." , "Alia consults a psychic" , "When her little sister claims she sees the dead" ;
+        semweb:hasDirector      "Rocky Soraya" ;
+        semweb:hasDuration      "108 min" ;
+        semweb:hasListed_in     "International Movies" , "Horror Movies" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       81016750 .
+
+<http://www.example.org/Man%20Up>
+        a                       semweb:movie ;
+        semweb:hasCast          "Lake Bell" , "Rory Kinnear" , "Sharon Horgan" , "Olivia Williams" , "Dean-Charles Chapman" , "Phoebe Waller-Bridge" , "Henry Lloyd-Hughes" , "Ken Stott" , "Simon Pegg" , "Ophelia Lovibond" , "Harriet Walter" , "Stephen Campbell Moore" ;
+        semweb:hasCountry       "United Kingdom" , "France" ;
+        semweb:hasDate_added    "September 4" , "2018" ;
+        semweb:hasDescription   "while standing under a train station clock" , "she meets a stranger who mistakes her for his blind date." , "A single woman seizes an opportunity when" ;
+        semweb:hasDirector      "Ben Palmer" ;
+        semweb:hasDuration      "88 min" ;
+        semweb:hasListed_in     "International Movies" , "Romantic Movies" , "Comedies" ;
+        semweb:hasRating        "R" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       80052612 .
+
+semweb:Love  a                  semweb:movie ;
+        semweb:hasCast          "Ugo Fox" , "Isabelle Nicou" , "Gaspar NoÃƒÂ©" , "Klara Kristin" , "DÃƒÂ©borah RÃƒÂ©vy" , "BenoÃƒÂ®t Debie" , "Aomi Muyock" , "Karl Glusman" , "Vincent Maraval" , "Juan Saavedra" ;
+        semweb:hasCountry       "Belgium" , "France" ;
+        semweb:hasDate_added    "September 8" , "2017" ;
+        semweb:hasDescription   "A man in an unsatisfying marriage recalls the details of an intense past relationship with an ex-girlfriend when he gets word that she may be missing." ;
+        semweb:hasDirector      "Gaspar NoÃƒÂ©" ;
+        semweb:hasDuration      "135 min" ;
+        semweb:hasListed_in     "Cult Movies" , "Independent Movies" , "Dramas" ;
+        semweb:hasRating        "NR" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       80057969 .
+
+<http://www.example.org/Kidnapping%20Mr.%20Heineken>
+        a                       semweb:movie ;
+        semweb:hasCast          "Jemima West" , "Ryan Kwanten" , "Jim Sturgess" , "Anthony Hopkins" , "Sam Worthington" , "David Dencik" , "Thomas Cocquerel" , "Mark van Eeuwen" ;
+        semweb:hasCountry       "Netherlands" , "United Kingdom" , "Belgium" , "United States" ;
+        semweb:hasDate_added    "2017" , "September 8" ;
+        semweb:hasDescription   "When beer magnate Alfred \"Freddy\" Heineken is kidnapped in 1983" , "his abductors make the largest ransom demand in history." ;
+        semweb:hasDirector      "Daniel Alfredson" ;
+        semweb:hasDuration      "95 min" ;
+        semweb:hasListed_in     "International Movies" , "Action & Adventure" , "Dramas" ;
+        semweb:hasRating        "R" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       70299204 .
+
+<http://www.example.org/Mo%20Gilligan:%20Momentum>
+        a                       semweb:movie ;
+        semweb:hasCast          "Mo Gilligan" ;
+        semweb:hasCountry       "United Kingdom" ;
+        semweb:hasDate_added    "2019" , "September 30" ;
+        semweb:hasDescription   "Comedian Mo Gilligan blends smooth moves and sharp humor as he riffs on humble beginnings" , "family dynamics and the complex art of dancing in the club." ;
+        semweb:hasDirector      "Chris Howe" ;
+        semweb:hasDuration      "64 min" ;
+        semweb:hasListed_in     "Stand-Up Comedy" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2019" ;
+        semweb:hasShow_id       81054495 .
+
+<http://www.example.org/First%20and%20Last>
+        a                       semweb:tvshow ;
+        semweb:hasDate_added    "2018" , "September 7" ;
+        semweb:hasDescription   "Take an intimate look at the emotionally charged first and last days of new and soon-to-be released inmates at Georgia's Gwinnett County Jail." ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "Docuseries" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       80190843 .
+
+<http://www.example.org/Bobby%20Sands:%2066%20Days>
+        a                       semweb:movie ;
+        semweb:hasCountry       "Ireland" , "United Kingdom" ;
+        semweb:hasDate_added    "September 28" , "2017" ;
+        semweb:hasDescription   "In 1981" , "an imprisoned Irish Republican Army soldier went on a hunger strike that galvanized his movement and made him a controversial global icon." ;
+        semweb:hasDirector      "Brendan Byrne" ;
+        semweb:hasDuration      "106 min" ;
+        semweb:hasListed_in     "Documentaries" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2016" ;
+        semweb:hasShow_id       80126507 .
+
+<http://www.example.org/Cultivating%20the%20Seas:%20History%20and%20Future%20of%20the%20Full-Cycle%20Cultured%20Kindai%20Tuna>
+        a                       semweb:movie ;
+        semweb:hasDate_added    "2019" , "September 28" ;
+        semweb:hasDescription   "An in-depth look at the full-cycle breeding program for bluefin Kindai tuna pioneered by Kinki UniversityÃ¢â‚¬â„¢s Aqua Culture Research Institute." ;
+        semweb:hasDirector      "Mana Yasuda" ;
+        semweb:hasDuration      "45 min" ;
+        semweb:hasListed_in     "Documentaries" , "International Movies" ;
+        semweb:hasRating        "TV-G" ;
+        semweb:hasRelease_year  "2019" ;
+        semweb:hasShow_id       81053893 .
+
+<http://www.example.org/Fabrizio%20Copano:%20Solo%20pienso%20en%20mi>
+        a                       semweb:movie ;
+        semweb:hasCast          "Fabrizio Copano" ;
+        semweb:hasCountry       "Chile" ;
+        semweb:hasDate_added    "September 8" , "2017" ;
+        semweb:hasDescription   "family WhatsApp groups and more." , "Fabrizio Copano takes audience participation to the next level in this stand-up set while reflecting on sperm banks" ;
+        semweb:hasDirector      "Rodrigo Toro" , "Francisco Schultz" ;
+        semweb:hasDuration      "60 min" ;
+        semweb:hasListed_in     "Stand-Up Comedy" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       80164077 .
+
+semweb:ATM  a                   semweb:movie ;
+        semweb:hasCast          "Yanee Tramoth" , "Pongsatorn Jongwilak" , "Chantavit Dhanasevi" , "Chaleumpol Tikumpornteerawong" , "Sananthachat Thanapatpisal" , "Gornpop Janjaroen" , "Preechaya Pongthananikorn" , "Thawat Pornrattanaprasert" , "Puttachat Pongsuchat" , "Pongkool Suebsung" ;
+        semweb:hasCountry       "Canada" , "United States" ;
+        semweb:hasDate_added    "September 5" , "2018" ;
+        semweb:hasDescription   "When a broken ATM dishes out a fortune" , "a couple who works at the bank vies to see who can recover the most cash Ã¢â‚¬â€œ and the loser must find a new job." ;
+        semweb:hasDirector      "Mez Tharatorn" ;
+        semweb:hasDuration      "122 min" ;
+        semweb:hasListed_in     "Romantic Movies" , "International Movies" , "Comedies" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2012" ;
+        semweb:hasShow_id       80159880 .
+
+<http://www.example.org/Out%20of%20Thin%20Air>
+        a                       semweb:movie ;
+        semweb:hasDate_added    "September 29" , "2017" ;
+        semweb:hasDescription   "Picking up 40 years after six were convicted for two strange murders in Iceland" , "this chilling documentary proves confessions canÃ¢â‚¬â„¢t always be trusted." ;
+        semweb:hasDirector      "Dylan Howitt" ;
+        semweb:hasDuration      "85 min" ;
+        semweb:hasListed_in     "International Movies" , "Documentaries" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       80119349 .
+
+semweb:Apaches  a               semweb:tvshow ;
+        semweb:hasCast          "Alberto Ammann" , "LucÃƒÂ­a JimÃƒÂ©nez" , "Claudia Traisac" , "VerÃƒÂ³nica Echegui" , "Eloy AzorÃƒÂ­n" ;
+        semweb:hasCountry       "Spain" ;
+        semweb:hasDate_added    "September 8" , "2017" ;
+        semweb:hasDescription   "A young journalist is forced into a life of crime to save his father and family in this series based on the novel by Miguel SÃƒÂ¡ez Carral." ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "Crime TV Shows" , "International TV Shows" , "Spanish-Language TV Shows" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2016" ;
+        semweb:hasShow_id       80163890 .
+
+semweb:Domino  a                semweb:movie ;
+        semweb:hasCast          "Paprika Steen" , "Helena Kaittani" , "Mohammed Azaay" , "Eriq Ebouaney" , "Carice van Houten" , "SÃƒÂ¸ren Malling" , "Nikolaj Coster-Waldau" , "Guy Pearce" ;
+        semweb:hasCountry       "Netherlands" , "Belgium" , "Italy" , "Denmark" , "France" ;
+        semweb:hasDate_added    "September 28" , "2019" ;
+        semweb:hasDescription   "A Copenhagen police officer hunts for the man who attacked his partner" , "only to stumble into a high-stakes game of espionage." ;
+        semweb:hasDirector      "Brian De Palma" ;
+        semweb:hasDuration      "89 min" ;
+        semweb:hasListed_in     "Thrillers" , "International Movies" ;
+        semweb:hasRating        "R" ;
+        semweb:hasRelease_year  "2019" ;
+        semweb:hasShow_id       80200087 .
+
+<http://www.example.org/Mak%20Cun>
+        a                       semweb:tvshow ;
+        semweb:hasCast          "Umie Aida" , "Rahim Razali" , "Erma Fatima" , "Nora Danish" ;
+        semweb:hasDate_added    "2017" , "September 29" ;
+        semweb:hasDescription   "A woman with an entrepreneurial spirit takes life into her own hands by starting a beauty cream business that inspires other women to take chances." ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "TV Dramas" , "TV Comedies" , "International TV Shows" ;
+        semweb:hasRating        "TV-PG" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       80163293 .
+
+semweb:Moonwalkers  a           semweb:movie ;
+        semweb:hasCast          "Tom Audenaert" , "Erika Sainte" , "Robert Sheehan" , "Rupert Grint" , "Eric Lampaert" , "Kevin Bishop" , "Ron Perlman" , "Stephen Campbell Moore" ;
+        semweb:hasCountry       "Belgium" , "France" ;
+        semweb:hasDate_added    "2017" , "September 8" ;
+        semweb:hasDescription   "a failing band manager and a Stanley Kubrick impersonator help the CIA construct an epic scam by faking the 1969 moon landing." , "A brain-addled war vet" ;
+        semweb:hasDirector      "Antoine Bardou-Jacquet" ;
+        semweb:hasDuration      "96 min" ;
+        semweb:hasListed_in     "International Movies" , "Comedies" , "Action & Adventure" ;
+        semweb:hasRating        "R" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       80046728 .
+
+<http://www.example.org/Stonehearst%20Asylum>
+        a                       semweb:movie ;
+        semweb:hasCast          "Jim Sturgess" , "Edmund Kingsley" , "Jason Flemyng" , "Michael Caine" , "Sophie Kennedy Clark" , "SinÃƒÂ©ad Cusack" , "Ben Kingsley" , "Kate Beckinsale" , "David Thewlis" , "Brendan Gleeson" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "2017" , "September 8" ;
+        semweb:hasDescription   "a young doctor arrives at an asylum for an apprenticeship and becomes suspicious of his mentor's methods while falling for a female patient." , "In 1899" ;
+        semweb:hasDirector      "Brad Anderson" ;
+        semweb:hasDuration      "113 min" ;
+        semweb:hasListed_in     "Horror Movies" , "Thrillers" ;
+        semweb:hasRating        "PG-13" ;
+        semweb:hasRelease_year  "2014" ;
+        semweb:hasShow_id       70304988 .
+
+<http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Battle%20of%20Wits>
+        a                       semweb:movie ;
+        semweb:hasCast          "Deepak Chachra" , "Damandeep Singh Baggan" , "Baba Sehgal" , "Smita Malhotra" ;
+        semweb:hasDate_added    "2017" , "September 8" ;
+        semweb:hasDescription   "a lion of his throne and a brother of his inheritance in these three stories of deception and justice." , "An artisan is cheated of his payment" ;
+        semweb:hasDirector      "Tilak Shetty" , "Munjal Shroff" ;
+        semweb:hasDuration      "62 min" ;
+        semweb:hasListed_in     "Children & Family Movies" ;
+        semweb:hasRating        "TV-Y7" ;
+        semweb:hasRelease_year  "2013" ;
+        semweb:hasShow_id       80182483 .
+
+<http://www.example.org/Krish%20Trish%20and%20Baltiboy>
+        a                       semweb:movie ;
+        semweb:hasCast          "Baba Sehgal" , "Damandeep Singh Baggan" , "Smita Malhotra" ;
+        semweb:hasDate_added    "September 8" , "2017" ;
+        semweb:hasDescription   "A team of minstrels" , "including a monkey" , "Kerala and Punjab." , "cat and donkey" , "narrate folktales from the Indian regions of Rajasthan" ;
+        semweb:hasDuration      "58 min" ;
+        semweb:hasListed_in     "Children & Family Movies" ;
+        semweb:hasRating        "TV-Y7" ;
+        semweb:hasRelease_year  "2009" ;
+        semweb:hasShow_id       80182480 .
+
+<http://www.example.org/The%20Debt%20Collector>
+        a                       semweb:movie ;
+        semweb:hasCast          "Rachel Brann" , "Tony Todd" , "Michael ParÃƒÂ©" , "Vladimir Kulich" , "Louis Mandylor" , "Scott Adkins" , "Selina Lo" ;
+        semweb:hasCountry       "United States" , "United Kingdom" ;
+        semweb:hasDate_added    "2018" , "September 3" ;
+        semweb:hasDescription   "A broke martial arts instructor takes a side gig with a mobster" , "who pairs him with a veteran thug for a weekend of fisticuffs-fueled debt collection." ;
+        semweb:hasDirector      "Jesse V. Johnson" ;
+        semweb:hasDuration      "96 min" ;
+        semweb:hasListed_in     "Action & Adventure" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       80198585 .
+
+<http://www.example.org/Next%20Gen>
+        a                       semweb:movie ;
+        semweb:hasCast          "John Krasinski" , "Jason Sudeikis" , "David Cross" , "Constance Wu" , "Charlyne Yi" , "Michael PeÃƒÂ±a" ;
+        semweb:hasCountry       "China" , "Canada" , "United States" ;
+        semweb:hasDate_added    "September 7" , "2018" ;
+        semweb:hasDescription   "action-packed adventure to foil the plot of a vicious villain." , "they embark on an intense" , "When lonely Mai forms an unlikely bond with a top-secret robot" ;
+        semweb:hasDirector      "Joe Ksander" , "Kevin R. Adams" ;
+        semweb:hasDuration      "106 min" ;
+        semweb:hasListed_in     "Comedies" , "Children & Family Movies" , "Sci-Fi & Fantasy" ;
+        semweb:hasRating        "TV-PG" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       80988892 .
+
+semweb:Frequency  a             semweb:tvshow ;
+        semweb:hasCast          "Daniel Bonjour" , "Riley Smith" , "Anthony Ruivivar" , "Peyton List" , "Lenny Jacobson" , "Devin Kelley" , "Mekhi Phifer" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 4" , "2017" ;
+        semweb:hasDescription   "estranged father via a time warp." , "A detective seizes a precious opportunity to change the past when she finds she can communicate with her deceased" ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "TV Mysteries" , "Crime TV Shows" , "TV Dramas" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2016" ;
+        semweb:hasShow_id       80113641 .
+
+<http://www.example.org/Black%20Panther>
+        a                       semweb:movie ;
+        semweb:hasCast          "Danai Gurira" , "David S. Lee" , "Andy Serkis" , "Daniel Kaluuya" , "Lupita Nyong'o" , "Letitia Wright" , "Winston Duke" , "Stan Lee" , "Sterling K. Brown" , "Florence Kasumba" , "Forest Whitaker" , "Martin Freeman" , "Chadwick Boseman" , "Michael B. Jordan" , "Angela Bassett" , "John Kani" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "2018" , "September 4" ;
+        semweb:hasDescription   "the superpowered new leader of the hidden" , "highly advanced African nation of Wakanda" , "strives to protect his home from enemies old and new." , "T'Challa" ;
+        semweb:hasDirector      "Ryan Coogler" ;
+        semweb:hasDuration      "135 min" ;
+        semweb:hasListed_in     "Sci-Fi & Fantasy" , "Action & Adventure" ;
+        semweb:hasRating        "PG-13" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       80201906 .
+
+<http://www.example.org/Marc%20Maron:%20Too%20Real>
+        a                       semweb:movie ;
+        semweb:hasCast          "Marc Maron" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 5" , "2017" ;
+        semweb:hasDescription   "documentary films and our weird modern world." , "Battle-scarred stand-up comedian Marc Maron unleashes a storm of ideas about meditation" , "mortality" ;
+        semweb:hasDirector      "Lynn Shelton" ;
+        semweb:hasDuration      "70 min" ;
+        semweb:hasListed_in     "Stand-Up Comedy" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       80177405 .
+
+semweb:Automata  a              semweb:movie ;
+        semweb:hasCast          "Andy Nyman" , "Robert Forster" , "Dylan McDermott" , "Birgitte Hjort SÃƒÂ¸rensen" , "Antonio Banderas" , "David Ryall" , "Melanie Griffith" , "Tim McInnerny" , "Christa Campbell" ;
+        semweb:hasCountry       "Spain" , "Canada" , "United States" , "Bulgaria" ;
+        semweb:hasDate_added    "2017" , "September 8" ;
+        semweb:hasDescription   "an insurance adjuster for a tech company investigates a robot killed for violating protocol and discovers a global conspiracy." , "In a dystopian future" ;
+        semweb:hasDirector      "Gabe IbÃƒÂ¡ÃƒÂ±ez" ;
+        semweb:hasDuration      "110 min" ;
+        semweb:hasListed_in     "International Movies" , "Thrillers" , "Sci-Fi & Fantasy" ;
+        semweb:hasRating        "R" ;
+        semweb:hasRelease_year  "2014" ;
+        semweb:hasShow_id       70304989 .
+
+semweb:5CM  a                   semweb:movie ;
+        semweb:hasCast          "Raline Shah" , "Firrina Sinatrya" , "Didi Petet" , "Pevita Pearce" , "Denny Sumargo" , "Fedi Nuril" , "Herjunot Ali" , "Saykoji" ;
+        semweb:hasCountry       "Indonesia" ;
+        semweb:hasDate_added    "September 28" , "2018" ;
+        semweb:hasDescription   "Five friends embark on a mission to climb the highest peak in Java" , "overcoming obstacles on the way and discovering the true meaning of friendship." ;
+        semweb:hasDirector      "Rizal Mantovani" ;
+        semweb:hasDuration      "126 min" ;
+        semweb:hasListed_in     "International Movies" , "Dramas" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2012" ;
+        semweb:hasShow_id       81002850 .
+
+<http://www.example.org/Phobia%202>
+        a                       semweb:movie ;
+        semweb:hasCast          "Suteerush Channukool" , "Nattapong Chartpong" , "Peeratchai Roompol" , "Marsha Wattanapanich" , "Worrawech Danuwong" , "Jirayu La-ongmanee" , "Gacha Plienwithi" , "Chumphorn Thepphithak" , "Nicole Theriault" , "Charlie Trairat" ;
+        semweb:hasCountry       "Thailand" ;
+        semweb:hasDate_added    "September 5" , "2018" ;
+        semweb:hasDescription   "From disfiguring punishments to festering souls" , "Thai horror masters present five supernatural tales of karma in this sequel to the 4bia anthology." ;
+        semweb:hasDirector      "Visute Poolvoralaks" , "Paween Purikitpanya" , "Banjong Pisanthanakun" , "Songyos Sugmakanan" , "Parkpoom Wongpoom" ;
+        semweb:hasDuration      "125 min" ;
+        semweb:hasListed_in     "Horror Movies" , "International Movies" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2009" ;
+        semweb:hasShow_id       70142798 .
+
+<http://www.example.org/6%20Years>
+        a                       semweb:movie ;
+        semweb:hasCast          "Dana Wheeler-Nicholson" , "Molly McMichael" , "Jennifer Lafleur" , "Taissa Farmiga" , "Joshua Leonard" , "Peter Vack" , "Ben Rosenfield" , "Jason Newman" , "Lindsay Burdge" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 8" , "2015" ;
+        semweb:hasDescription   "unexpected career opportunities threaten their future." , "As a volatile young couple who have been together for six years approach college graduation" ;
+        semweb:hasDirector      "Hannah Fidell" ;
+        semweb:hasDuration      "80 min" ;
+        semweb:hasListed_in     "Independent Movies" , "Dramas" , "Romantic Movies" ;
+        semweb:hasRating        "NR" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       80045922 .
+
+<http://www.example.org/Lessons%20from%20a%20School%20Shooting:%20Notes%20from%20Dunblane>
+        a                       semweb:movie ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 28" , "2018" ;
+        semweb:hasDescription   "Two priests Ã¢â‚¬â€œ one from Dunblane" , "Scotland" , "the other from Newtown" , "Connecticut Ã¢â‚¬â€œ bond over school tragedies that occurred 16 years apart." ;
+        semweb:hasDirector      "Kim A. Snyder" ;
+        semweb:hasDuration      "24 min" ;
+        semweb:hasListed_in     "Documentaries" ;
+        semweb:hasRating        "TV-PG" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       81001809 .
+
+<http://www.example.org/Hard%20Tide>
+        a                       semweb:movie ;
+        semweb:hasCast          "Alexandra Newick" , "Andy Lucas" , "Oliver Stark" , "Mem Ferda" , "Nathanael Wiseman" , "Beverly Hills" , "Kat Gellin" , "Ralph Brown" ;
+        semweb:hasCountry       "United Kingdom" ;
+        semweb:hasDate_added    "2017" , "September 6" ;
+        semweb:hasDescription   "A drug dealer who's been emulating his father's successful criminal career is forced to go on the run with a young girl in this fact-based thriller." ;
+        semweb:hasDirector      "Nathanael Wiseman" , "Robert Osman" ;
+        semweb:hasDuration      "79 min" ;
+        semweb:hasListed_in     "Independent Movies" , "Dramas" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       80162141 .
+
+<http://www.example.org/TUNA%20GIRL>
+        a                       semweb:movie ;
+        semweb:hasCast          "Fuka Koshiba" , "Hiroto Kanai" , "Shuri Tanaka" , "Takeshi Masu" , "Takashi Taniguchi" , "Tom Fujita" , "Ryosuke Yusa" , "Hidetoshi Hoshida" , "Chal Inoue" ;
+        semweb:hasDate_added    "2019" , "September 28" ;
+        semweb:hasDescription   "A clumsy but cheerful fisheries student struggles to find her place at a research institute renowned for its tuna cultivation. The work isn't easy." ;
+        semweb:hasDirector      "Mana Yasuda" ;
+        semweb:hasDuration      "90 min" ;
+        semweb:hasListed_in     "Dramas" , "International Movies" ;
+        semweb:hasRating        "TV-PG" ;
+        semweb:hasRelease_year  "2019" ;
+        semweb:hasShow_id       81053892 .
+
+semweb:tvshow  rdfs:subClassOf  semweb:type .
+
+<http://www.example.org/The%20Seventies>
+        a                       semweb:tvshow ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 30" , "2018" ;
+        semweb:hasDescription   "focusing on the major political and historical landmarks of the decade and the cultural response to those events." , "This series examines 1970s America" ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "Docuseries" ;
+        semweb:hasRating        "TV-PG" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       80030186 .
+
+<http://www.example.org/One%20Day>
+        a                       semweb:movie ;
+        semweb:hasCast          "Kaz Sawamura" , "Theerapat Sajakul" , "Kris Srepoomseth" , "Nittha Jirayungyurn" , "Chantavit Dhanasevi" , "Somyos Matures" , "Prim Bulakul" , "Rermthon Kemapech" , "Sutthatip Wutichaipradit" ;
+        semweb:hasCountry       "Thailand" ;
+        semweb:hasDate_added    "2018" , "September 5" ;
+        semweb:hasDescription   "an overlooked geek seizes the chance to make an impression before she remembers again." , "When his colleague (and crush) temporarily loses her memory" ;
+        semweb:hasDirector      "Banjong Pisanthanakun" ;
+        semweb:hasDuration      "135 min" ;
+        semweb:hasListed_in     "Dramas" , "Romantic Movies" , "International Movies" ;
+        semweb:hasRating        "TV-PG" ;
+        semweb:hasRelease_year  "2016" ;
+        semweb:hasShow_id       81016045 .
+
+<http://www.example.org/C%C3%83%C2%A9zanne%20et%20moi>
+        a                       semweb:movie ;
+        semweb:hasCast          "DÃƒÂ©borah FranÃƒÂ§ois" , "Laurent Stocker" , "Alice Pol" , "Guillaume Canet" , "Isabelle Candelier" , "Sabine AzÃƒÂ©ma" , "Guillaume Gallienne" , "Freya Mavor" ;
+        semweb:hasCountry       "France" , "Belgium" ;
+        semweb:hasDate_added    "2017" , "September 7" ;
+        semweb:hasDescription   "This historical drama explores the long and often volatile friendship of painter Paul CÃƒÂ©zanne and writer Ãƒâ€°mile Zola" , "who first met as schoolboys." ;
+        semweb:hasDirector      "Daniele Thompson" ;
+        semweb:hasDuration      "114 min" ;
+        semweb:hasListed_in     "Dramas" , "International Movies" , "Independent Movies" ;
+        semweb:hasRating        "R" ;
+        semweb:hasRelease_year  "2016" ;
+        semweb:hasShow_id       80152447 .
+
+<http://www.example.org/We%20Bare%20Bears>
+        a                       semweb:tvshow ;
+        semweb:hasCast          "Eric Edelstein" , "Demetri Martin" , "Bobby Moynihan" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 30" , "2018" ;
+        semweb:hasDescription   "Grizzly" , "Panda and Ice Bear are three adopted bear brothers struggling against their animal instincts to fit into the civilized" , "modern human world." ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "TV Comedies" , "Kids' TV" ;
+        semweb:hasRating        "TV-Y7" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       80116921 .
+
+<http://www.example.org/Animal%20World>
+        a                       semweb:movie ;
+        semweb:hasCast          "Yijuan Li" , "Keanu Chi" , "Su Ke" , "Bingkun Cao" , "Zhang Jungyi" , "Li Yi Feng" , "Michael Douglas" , "Zhou Dongyu" , "Ge Wang" ;
+        semweb:hasCountry       "China" ;
+        semweb:hasDate_added    "2018" , "September 28" ;
+        semweb:hasDescription   "debt-ridden teen resorts to his math skills when he's forced into a deadly tournament of rock-paper-scissors run by a diabolical host." , "An unlucky" ;
+        semweb:hasDirector      "Han Yan" ;
+        semweb:hasDuration      "130 min" ;
+        semweb:hasListed_in     "International Movies" , "Sci-Fi & Fantasy" , "Action & Adventure" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       81004470 .
+
+semweb:PK  a                    semweb:movie ;
+        semweb:hasCast          "Rukhsar" , "Sushant Singh Rajput" , "Sanjay Dutt" , "Parikshat Sahni" , "Aamir Khan" , "Anuskha Sharma" , "Saurabh Shukla" , "Boman Irani" ;
+        semweb:hasCountry       "India" ;
+        semweb:hasDate_added    "September 6" , "2018" ;
+        semweb:hasDescription   "Aamir Khan teams with director Rajkumar Hirani to play a social crusader in a political satire on the state of corruption in India." ;
+        semweb:hasDirector      "Rajkumar Hirani" ;
+        semweb:hasDuration      "146 min" ;
+        semweb:hasListed_in     "Comedies" , "International Movies" , "Dramas" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2014" ;
+        semweb:hasShow_id       70303496 .
+
+<http://www.example.org/The%20Royal%20House%20of%20Windsor>
+        a                       semweb:tvshow ;
+        semweb:hasCountry       "United Kingdom" ;
+        semweb:hasDate_added    "September 30" , "2017" ;
+        semweb:hasDescription   "politics and more." , "Drawing on newly available info" , "this show traces how the British royal family has survived the last 100 years of power struggles" ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "International TV Shows" , "British TV Shows" , "Docuseries" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       80181555 .
+
+semweb:Shutter  a               semweb:movie ;
+        semweb:hasCast          "Sivagorn Muttamara" , "Natthaweeranuch Thongmee" , "Achita Sikamana" , "Ananda Everingham" , "Kachormsak Naruepatr" , "Unnop Chanpaibool" , "Titikarn Tongprasearth" , "Chachchaya Chalemphol" ;
+        semweb:hasCountry       "Thailand" ;
+        semweb:hasDate_added    "September 5" , "2018" ;
+        semweb:hasDescription   "a couple is haunted by more than just the memory of their deadly choice." , "After killing a young girl in a hit-and-run accident" ;
+        semweb:hasDirector      "Parkpoom Wongpoom" , "Banjong Pisanthanakun" ;
+        semweb:hasDuration      "96 min" ;
+        semweb:hasListed_in     "International Movies" , "Horror Movies" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2004" ;
+        semweb:hasShow_id       70062814 .
+
+<http://www.example.org/Christiane%20Amanpour:%20Sex%20&%20Love%20Around%20the%20World>
+        a                       semweb:tvshow ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 30" , "2018" ;
+        semweb:hasDescription   "big global cities celebrate love and accentuate sex. CNN's Christiane Amanpour reports." , "acculturated dive into how adults in six" , "A contextual" ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "Docuseries" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       81011682 .
+
+<http://www.example.org/Hold%20the%20Dark>
+        a                       semweb:movie ;
+        semweb:hasCast          "Macon Blair" , "Julian Black Antelope" , "Alexander SkarsgÃƒÂ¥rd" , "Riley Keough" , "Jeffrey Wright" , "Peter McRobbie" , "James Badge Dale" , "Tantoo Cardinal" , "Jonathan Whitesell" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 28" , "2018" ;
+        semweb:hasDescription   "a naturalist hunts for wolves blamed for killing a local boy" , "In the grim Alaskan winter" , "but he soon finds himself swept into a chilling mystery." ;
+        semweb:hasDirector      "Jeremy Saulnier" ;
+        semweb:hasDuration      "126 min" ;
+        semweb:hasListed_in     "Action & Adventure" , "Dramas" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       80157072 .
+
+<http://www.example.org/Elstree%201976>
+        a                       semweb:movie ;
+        semweb:hasCast          "Angus MacInnes" , "John Chapman" , "Anthony Forrest" , "Derek Lyons" , "Pam Rose" , "Paul Blake" , "Garrick Hagon" , "David Prowse" , "Jeremy Bulloch" , "Laurie Goode" ;
+        semweb:hasCountry       "United Kingdom" ;
+        semweb:hasDate_added    "September 6" , "2016" ;
+        semweb:hasDescription   "Then and now footage of bit players who appeared in \"Star Wars\" tells the story of how the film and its legions of fans changed their lives forever." ;
+        semweb:hasDirector      "Jon Spira" ;
+        semweb:hasDuration      "102 min" ;
+        semweb:hasListed_in     "Documentaries" ;
+        semweb:hasRating        "TV-PG" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       80095641 .
+
+<http://www.example.org/Manhattan%20Romance>
+        a                       semweb:movie ;
+        semweb:hasCast          "Gaby Hoffmann" , "Tom O'Brien" , "Louis Cancelmi" , "Zach Grenier" , "Caitlin Fitzgerald" , "Katherine Waterston" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 8" , "2017" ;
+        semweb:hasDescription   "A filmmaker working on a documentary about love in modern Manhattan becomes personally entangled in the romantic lives of his subjects." ;
+        semweb:hasDirector      "Tom O'Brien" ;
+        semweb:hasDuration      "98 min" ;
+        semweb:hasListed_in     "Comedies" , "Independent Movies" , "Romantic Movies" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2014" ;
+        semweb:hasShow_id       80060297 .
+
+<http://www.example.org/Two%20Catalonias>
+        a                       semweb:movie ;
+        semweb:hasCountry       "Spain" ;
+        semweb:hasDate_added    "September 28" , "2018" ;
+        semweb:hasDescription   "Lawmakers and activists with conflicting ideologies speak about the complexities of Catalonia's politics and the fight for its independence from Spain." ;
+        semweb:hasDirector      "Ãƒï¿½lvaro Longoria" , "Gerardo Olivares" ;
+        semweb:hasDuration      "117 min" ;
+        semweb:hasListed_in     "International Movies" , "Documentaries" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       80992039 .
+
+<http://www.example.org/The%20Mayor>
+        a                       semweb:movie ;
+        semweb:hasCast          "Do-won Kwak" , "Hye-young Ryu" , "Min-sik Choi" , "Joo-yeon Lee" , "Eun-kyung Shim" , "So-ri Moon" , "Byeong-eun Park" , "Sun-gyu Jin" , "Mi-ran Ra" , "Ki Hong Lee" ;
+        semweb:hasCountry       "South Korea" ;
+        semweb:hasDate_added    "2017" , "September 30" ;
+        semweb:hasDescription   "the incumbent mayor of Seoul runs for an unprecedented third term Ã¢â‚¬â€œ and will stop at nothing to keep his secrets hidden." , "With the presidency in mind" ;
+        semweb:hasDirector      "Park In-je" ;
+        semweb:hasDuration      "130 min" ;
+        semweb:hasListed_in     "International Movies" , "Dramas" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       80187061 .
+
+<http://www.example.org/City%20of%20Joy>
+        a                       semweb:movie ;
+        semweb:hasCountry       "United States," ;
+        semweb:hasDate_added    "September 7" , "2018" ;
+        semweb:hasDescription   "Women who've been sexually brutalized in war-torn Congo begin to heal at City of Joy" , "a center that helps them regain a sense of self and empowerment." ;
+        semweb:hasDirector      "Madeleine Gavin" ;
+        semweb:hasDuration      "77 min" ;
+        semweb:hasListed_in     "Documentaries" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       80203094 .
+
+<http://www.example.org/Monster%20High:%20Boo%20York,%20Boo%20York>
+        a                       semweb:movie ;
+        semweb:hasCast          "Karen Strassman" , "Wendee Lee" , "TJ Smith" , "Rachel Staman" , "Laura Bailey" , "Celeste Henderson" , "America Young" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "2015" , "September 29" ;
+        semweb:hasDescription   "Cleo is invited to a gala in the big city celebrating a magical comet and brings her best friends along. But the sinister Nefera has other plans." ;
+        semweb:hasDirector      "William Lau" ;
+        semweb:hasDuration      "72 min" ;
+        semweb:hasListed_in     "Music & Musicals" , "Children & Family Movies" ;
+        semweb:hasRating        "TV-Y7" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       80019931 .
+
+<http://www.example.org/Ben%2010>
+        a                       semweb:tvshow ;
+        semweb:hasCast          "Dwight Schultz" , "David Kaye" , "Montse Hernandez" , "Todd Haberkorn" , "Daryl Sabara" , "Roger Craig Smith" , "Tara Strong" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 30" , "2018" ;
+        semweb:hasDescription   "Ben can transform into ten types of aliens. He'll try 'em all while adventuring across the country with his cousin Gwen and Grandpa Max." ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "Kids' TV" ;
+        semweb:hasRating        "TV-Y7" ;
+        semweb:hasRelease_year  "2016" ;
+        semweb:hasShow_id       80239337 .
+
+<http://www.example.org/Norm%20of%20the%20North:%20King%20Sized%20Adventure>
+        a                       semweb:movie ;
+        semweb:hasCast          "Jonathan Holmes" , "Maya Kay" , "Lee Tockar" , "Andrew Toth" , "Alan Marriott" , "Michael Dobson" , "Brian Dobson" , "Jennifer Cameron" , "Cole Howard" , "Lisa Durupt" ;
+        semweb:hasCountry       "South Korea" , "India" , "China" , "United States" ;
+        semweb:hasDate_added    "September 9" , "2019" ;
+        semweb:hasDescription   "a polar bear king must take back a stolen artifact from an evil archaeologist first." , "Before planning an awesome wedding for his grandfather" ;
+        semweb:hasDirector      "Tim Maltby" , "Richard Finn" ;
+        semweb:hasDuration      "90 min" ;
+        semweb:hasListed_in     "Children & Family Movies" , "Comedies" ;
+        semweb:hasRating        "TV-PG" ;
+        semweb:hasRelease_year  "2019" ;
+        semweb:hasShow_id       81145628 .
+
+<http://www.example.org/Care%20of%20Kancharapalem>
+        a                       semweb:movie ;
+        semweb:hasCast          "Karthik Rathnam" , "Nithyasri Goru" , "Praveena Paruchuri" , "Kesava Karri" , "Subba Rao Vepada" , "Praneetha Patnaik" , "Radha Bessy" , "Mohan Bhagath" ;
+        semweb:hasDate_added    "2019" , "September 6" ;
+        semweb:hasDescription   "religion and status unfold in a small Indian town." , "four love stories spanning age" , "From a schoolboyÃ¢â‚¬â„¢s crush to a middle-aged bachelorÃ¢â‚¬â„¢s office romance" ;
+        semweb:hasDirector      "Maha Venkatesh" ;
+        semweb:hasDuration      "142 min" ;
+        semweb:hasListed_in     "Dramas" , "Independent Movies" , "Comedies" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       81113928 .
+
+<http://www.example.org/The%20Nineties>
+        a                       semweb:tvshow ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 30" , "2018" ;
+        semweb:hasDescription   "This U.S.-focused series dives into the cultural and political changes that swept the last decade of the 20th century. Executive produced by Tom Hanks." ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "Docuseries" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       81027384 .
+
+<http://www.example.org/Hell%20and%20Back>
+        a                       semweb:movie ;
+        semweb:hasCast          "Maria Bamford" , "Susan Sarandon" , "Bob Odenkirk" , "Rob Riggle" , "T.J. Miller" , "John Farley" , "Danny McBride" , "Jennifer Coolidge" , "Mila Kunis" , "Nick Swardson" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "2018" , "September 6" ;
+        semweb:hasDescription   "and the other two must save him from the misfits of the underworld." , "one of them is cast away to hell" , "When best friends break a blood oath" ;
+        semweb:hasDirector      "Tom Gianas" , "Ross R. Shuman" ;
+        semweb:hasDuration      "86 min" ;
+        semweb:hasListed_in     "Independent Movies" , "Action & Adventure" , "Comedies" ;
+        semweb:hasRating        "R" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       80058026 .
+
+<http://www.example.org/#realityhigh>
+        a                       semweb:movie ;
+        semweb:hasCast          "Peter Gilroy" , "Anne Winters" , "Patrick Davis" , "Nesta Cooper" , "Jake Borelli" , "John Michael Higgins" , "Alicia Sanz" , "Kate Walsh" , "Rebekah Graf" , "Keith Powers" , "Yousef Erakat" , "Kid Ink" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 8" , "2017" ;
+        semweb:hasDescription   "she lands in the cross hairs of his ex" , "a social media celebrity." , "When nerdy high schooler Dani finally attracts the interest of her longtime crush" ;
+        semweb:hasDirector      "Fernando Lebrija" ;
+        semweb:hasDuration      "99 min" ;
+        semweb:hasListed_in     "Comedies" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       80125979 .
+
+<http://www.example.org/Archibald's%20Next%20Big%20Thing>
+        a                       semweb:tvshow ;
+        semweb:hasCast          "Chelsea Kane" , "Kari Wahlgren" , "Rosamund Pike" , "Jordan Fisher" , "Tony Hale" , "Adam Pally" ;
+        semweb:hasDate_added    "September 6" , "2019" ;
+        semweb:hasDescription   "but he never forgets to have fun. After all" , "life's an adventure!" , "Happy-go-lucky chicken Archibald may not remember to do his chores" ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "Kids' TV" , "TV Comedies" ;
+        semweb:hasRating        "TV-Y7" ;
+        semweb:hasRelease_year  "2019" ;
+        semweb:hasShow_id       80221550 .
+
+<http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20The%20Greatest%20Trick>
+        a                       semweb:movie ;
+        semweb:hasCast          "Smita Malhotra" , "Damandeep Singh Baggan" , "Baba Sehgal" ;
+        semweb:hasDate_added    "September 8" , "2017" ;
+        semweb:hasDescription   "The consequences of trickery are explored in stories involving an inconsiderate husband" , "and a kind man who loses everything." , "two greedy courtiers" ;
+        semweb:hasDirector      "Munjal Shroff" , "Tilak Shetty" ;
+        semweb:hasDuration      "60 min" ;
+        semweb:hasListed_in     "Children & Family Movies" ;
+        semweb:hasRating        "TV-Y7" ;
+        semweb:hasRelease_year  "2013" ;
+        semweb:hasShow_id       80182621 .
+
+semweb:Watchman  a              semweb:movie ;
+        semweb:hasCast          "Yogi Babu" , "Samyuktha Hegde" , "G.V. Prakash Kumar" , "Suman" , "Munishkanth" , "Raj Arjun" ;
+        semweb:hasCountry       "India" ;
+        semweb:hasDate_added    "2019" , "September 4" ;
+        semweb:hasDescription   "a young man breaks into a bungalow to steal the cash" , "Rushing to pay off a loan shark" , "unprepared for the dog standing guard Ã¢â‚¬â€œ or the trouble inside." ;
+        semweb:hasDirector      "A. L. Vijay" ;
+        semweb:hasDuration      "93 min" ;
+        semweb:hasListed_in     "Dramas" , "International Movies" , "Comedies" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2019" ;
+        semweb:hasShow_id       81155784 .
+
+<http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Best%20Friends%20Forever>
+        a                       semweb:movie ;
+        semweb:hasCast          "Damandeep Singh Baggan" , "Smita Malhotra" , "Deepak Chachra" ;
+        semweb:hasDate_added    "September 8" , "2017" ;
+        semweb:hasDescription   "monkey and donkey team up to narrate folktales about friendship from Northeast India" , "A cat" , "and the Indian regions of Bihar and Rajasthan." ;
+        semweb:hasDirector      "Tilak Shetty" , "Munjal Shroff" ;
+        semweb:hasDuration      "65 min" ;
+        semweb:hasListed_in     "Children & Family Movies" ;
+        semweb:hasRating        "TV-Y" ;
+        semweb:hasRelease_year  "2016" ;
+        semweb:hasShow_id       80182596 .
+
+<http://www.example.org/Jandino:%20Whatever%20it%20Takes>
+        a                       semweb:movie ;
+        semweb:hasCast          "Jandino Asporaat" ;
+        semweb:hasCountry       "United Kingdom" ;
+        semweb:hasDate_added    "2016" , "September 9" ;
+        semweb:hasDescription   "Jandino Asporaat riffs on the challenges of raising kids and serenades the audience with a rousing rendition of \"Sex on Fire\" in his comedy show." ;
+        semweb:hasDuration      "94 min" ;
+        semweb:hasListed_in     "Stand-Up Comedy" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2016" ;
+        semweb:hasShow_id       80117401 .
+
+<http://www.example.org/Long%20Shot>
+        a                       semweb:movie ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 29" , "2017" ;
+        semweb:hasDescription   "When Juan Catalan is arrested for a murder he didn't commit" , "he builds his case for innocence around raw footage from a popular TV show. A documentary." ;
+        semweb:hasDirector      "Jacob LaMendola" ;
+        semweb:hasDuration      "40 min" ;
+        semweb:hasListed_in     "Documentaries" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       80182115 .
+
+<http://www.example.org/Kill%20Me%20If%20You%20Dare>
+        a                       semweb:movie ;
+        semweb:hasCast          "DilÃ…Å¸ad Ã…Å¾imÃ…Å¸ek" , "Ãƒâ€“zgÃƒÂ¼r Emre YÃ„Â±ldÃ„Â±rÃ„Â±m" , "Yosi Mizrahi" , "Seda GÃƒÂ¼ven" , "Ali YoÃ„Å¸urtÃƒÂ§uoÃ„Å¸lu" , "Murat Boz" , "Seda Bakan" , "AÃƒÂ§elya TopaloÃ„Å¸lu" ;
+        semweb:hasDate_added    "2019" , "September 6" ;
+        semweb:hasDescription   "a couple grows cautious of each other but hit the lottery and decide to stay together Ã¢â‚¬â€œ till death do they part." , "Bogged down with money problems" ;
+        semweb:hasDirector      "Ã…Å¾enol SÃƒÂ¶nmez" ;
+        semweb:hasDuration      "100 min" ;
+        semweb:hasListed_in     "Comedies" , "International Movies" , "Romantic Movies" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2019" ;
+        semweb:hasShow_id       81132437 .
+
+<http://www.example.org/The%20Runner>
+        a                       semweb:movie ;
+        semweb:hasCast          "Wendell Pierce" , "Dana Gourrier" , "Peter Fonda" , "Sarah Paulson" , "Connie Nielsen" , "Nicolas Cage" , "Bryan Batt" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 8" , "2017" ;
+        semweb:hasDescription   "A New Orleans politician finds his idealistic plans for rebuilding after a toxic oil spill unraveling thanks to a sex scandal." ;
+        semweb:hasDirector      "Austin Stark" ;
+        semweb:hasDuration      "90 min" ;
+        semweb:hasListed_in     "Independent Movies" , "Dramas" ;
+        semweb:hasRating        "R" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       80057700 .
+
+<http://www.example.org/The%20World%20We%20Make>
+        a                       semweb:movie ;
+        semweb:hasCast          "Caleb Castille" , "Gregory Alan Williams" , "Kevin Sizemore" , "Rose Reid" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "2019" , "September 4" ;
+        semweb:hasDescription   "A teenage equestrian and a local football player for each other" , "but simmering racism in their small town puts their relationship to the test." ;
+        semweb:hasDirector      "Brian Baugh" ;
+        semweb:hasDuration      "108 min" ;
+        semweb:hasListed_in     "Dramas" , "Romantic Movies" ;
+        semweb:hasRating        "PG" ;
+        semweb:hasRelease_year  "2019" ;
+        semweb:hasShow_id       81078908 .
+
+<http://www.example.org/Rolling%20Papers>
+        a                       semweb:movie ;
+        semweb:hasCountry       "Uruguay" , "United States" ;
+        semweb:hasDate_added    "2017" , "September 8" ;
+        semweb:hasDescription   "As the newspaper industry takes a hit" , "The Denver Post breaks new ground with a section dedicated to cannabis culture." ;
+        semweb:hasDirector      "Mitch Dickman" ;
+        semweb:hasDuration      "79 min" ;
+        semweb:hasListed_in     "Documentaries" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       80046727 .
+
+<http://www.example.org/Big%20Miracle>
+        a                       semweb:movie ;
+        semweb:hasCast          "Rob Riggle" , "Dermot Mulroney" , "Tim Blake Nelson" , "Stephen Root" , "Ted Danson" , "Drew Barrymore" , "John Krasinski" , "Michael Gaston" , "Vinessa Shaw" , "Kristen Bell" ;
+        semweb:hasCountry       "United Kingdom" , "United States" ;
+        semweb:hasDate_added    "September 30" , "2018" ;
+        semweb:hasDescription   "the U.S. and U.S.S.R. team up to rescue them in this tale inspired by true events." , "After a reporter writes about whales trapped in the Arctic Circle" ;
+        semweb:hasDirector      "Ken Kwapis" ;
+        semweb:hasDuration      "107 min" ;
+        semweb:hasListed_in     "Children & Family Movies" , "Dramas" ;
+        semweb:hasRating        "PG" ;
+        semweb:hasRelease_year  "2012" ;
+        semweb:hasShow_id       70212504 .
+
+<http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Oversmartness%20Never%20Pays>
+        a                       semweb:movie ;
+        semweb:hasCast          "Deepak Chachra" , "Rishi Gambhir" , "Smita Malhotra" ;
+        semweb:hasDate_added    "2017" , "September 8" ;
+        semweb:hasDescription   "monkey and donkey learn the consequences of cheating through stories from the Indian regions of Rajasthan" , "A cat" , "West Bengal and Maharashtra." ;
+        semweb:hasDirector      "Tilak Shetty" ;
+        semweb:hasDuration      "65 min" ;
+        semweb:hasListed_in     "Children & Family Movies" ;
+        semweb:hasRating        "TV-Y7" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       80182597 .
+
+<http://www.example.org/Paradise%20Lost>
+        a                       semweb:movie ;
+        semweb:hasCast          "JÃƒÂºlio Andrade" , "Humberto CarrÃƒÂ£o" , "Julia Konrad" , "Marjorie Estiano" , "Seu Jorge" , "Jaloo" , "Malu Galli" , "Hermila Guedes" , "Erasmo Carlos" , "Lee Taylor" , "Felipe Abib" ;
+        semweb:hasCountry       "Brazil" ;
+        semweb:hasDate_added    "September 29" , "2018" ;
+        semweb:hasDescription   "A cop moonlights as the bodyguard for a young drag queen at a nightclub" , "and grows closer to the family of misfit singers that perform there." ;
+        semweb:hasDirector      "Monique Gardenberg" ;
+        semweb:hasDuration      "111 min" ;
+        semweb:hasListed_in     "International Movies" , "Dramas" , "Independent Movies" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       81011955 .
+
+<http://www.example.org/Gerald's%20Game>
+        a                       semweb:movie ;
+        semweb:hasCast          "Bruce Greenwood" , "Carel Struycken" , "Chiara Aurelia" , "Carla Gugino" , "Henry Thomas" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 29" , "2017" ;
+        semweb:hasDescription   "dark secrets and a dire choice." , "When her husband's sex game goes wrong" , "Jessie Ã¢â‚¬â€œ handcuffed to a bed in a remote lake house Ã¢â‚¬â€œ faces warped visions" ;
+        semweb:hasDirector      "Mike Flanagan" ;
+        semweb:hasDuration      "103 min" ;
+        semweb:hasListed_in     "Thrillers" , "Horror Movies" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2017" ;
+        semweb:hasShow_id       80128722 .
+
+semweb:type  a  rdfs:Class .
+
+<http://www.example.org/Amanda%20Knox>
+        a                       semweb:movie ;
+        semweb:hasCountry       "United States" , "Denmark" ;
+        semweb:hasDate_added    "September 30" , "2016" ;
+        semweb:hasDescription   "She was twice convicted and acquitted of murder. Amanda Knox and the people closest to her case speak out in this illuminating documentary." ;
+        semweb:hasDirector      "Brian McGinn" , "Rod Blackhurst" ;
+        semweb:hasDuration      "92 min" ;
+        semweb:hasListed_in     "Documentaries" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2016" ;
+        semweb:hasShow_id       80081155 .
+
+<http://www.example.org/The%20Sinking%20Of%20Van%20Der%20Wijck>
+        a                       semweb:movie ;
+        semweb:hasCast          "Pevita Pearce" , "Herjunot Ali" , "Reza Rahadian" , "Gesya Shandy" , "Kevin Andrean" , "Randy Nidji" , "Arzetti Bilbina" ;
+        semweb:hasCountry       "Indonesia" ;
+        semweb:hasDate_added    "September 28" , "2018" ;
+        semweb:hasDescription   "When a young man leaves home to fulfill the wishes of his late father" , "he meets and falls in love with a woman from a very different background." ;
+        semweb:hasDirector      "Sunil Soraya" ;
+        semweb:hasDuration      "163 min" ;
+        semweb:hasListed_in     "Dramas" , "International Movies" , "Romantic Movies" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2013" ;
+        semweb:hasShow_id       81002866 .
+
+<http://www.example.org/Adam%20Ruins%20Everything>
+        a                       semweb:tvshow ;
+        semweb:hasCast          "Adam Lustick" , "Adam Conover" , "Emily Axford" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 30" , "2018" ;
+        semweb:hasDescription   "Education can be fun Ã¢â‚¬â€œ and funny. Comedian Adam Conover bursts misconceptions" , "deconstructs topics and leaves with positive takeaways." ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "TV Comedies" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2018" ;
+        semweb:hasShow_id       80996949 .
+
+<http://www.example.org/Transformers:%20Robots%20in%20Disguise>
+        a                       semweb:tvshow ;
+        semweb:hasCast          "Will Friedle" , "Stuart Allan" , "Darren Criss" , "Mitchell Whitfield" , "Ted McGinley" , "Peter Cullen" , "Khary Payton" , "Constance Zimmer" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "2018" , "September 8" ;
+        semweb:hasDescription   "Bumblebee leads a new Autobot force to protect humankind." , "When a prison ship crash unleashes hundreds of Decepticons on Earth" ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "Kids' TV" ;
+        semweb:hasRating        "TV-Y7" ;
+        semweb:hasRelease_year  "2016" ;
+        semweb:hasShow_id       80058654 .
+
+semweb:movie  rdfs:subClassOf  semweb:type .
+
+<http://www.example.org/Act%20of%20Vengeance>
+        a                       semweb:movie ;
+        semweb:hasCast          "Scott William Winters" , "Gina Gershon" , "Sharrieff Pugh" , "Mahsun KÃ„Â±rmÃ„Â±zÃ„Â±gÃƒÂ¼l" , "Danny Glover" , "Robert Patrick" , "Engin Altan DÃƒÂ¼zyatan" , "Mustafa Sandal" , "Haluk Bilginer" ;
+        semweb:hasCountry       "Turkey" , "United States" ;
+        semweb:hasDate_added    "2018" , "September 29" ;
+        semweb:hasDescription   "Two Turkish agents are sent to New York City on a mission to capture a notorious terrorist known only as \"Dejjal\" (Arabic for Antichrist)." ;
+        semweb:hasDirector      "Mahsun KÃ„Â±rmÃ„Â±zÃ„Â±gÃƒÂ¼l" ;
+        semweb:hasDuration      "112 min" ;
+        semweb:hasListed_in     "International Movies" , "Action & Adventure" ;
+        semweb:hasRating        "NR" ;
+        semweb:hasRelease_year  "2010" ;
+        semweb:hasShow_id       70233894 .
+
+<http://www.example.org/No%20Tomorrow>
+        a                       semweb:tvshow ;
+        semweb:hasCast          "Amy Pietz" , "Jesse Rath" , "Sarayu Blue" , "Tori Anderson" , "Joshua Sasse" , "Jonathan Langdon" ;
+        semweb:hasCountry       "United States" ;
+        semweb:hasDate_added    "September 5" , "2017" ;
+        semweb:hasDescription   "Evie discovers a new freedom Ã¢â‚¬â€œ even though her man just might be an end-of-days crackpot." , "Her straitjacketed life turned topsy-turvy by hunky Xavier" ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "TV Comedies" , "TV Dramas" , "Romantic TV Shows" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2016" ;
+        semweb:hasShow_id       80113482 .
+
+<http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Part%20II>
+        a                       semweb:movie ;
+        semweb:hasCast          "Smita Malhotra" , "Damandeep Singh Baggan" , "Baba Sehgal" ;
+        semweb:hasDate_added    "September 8" , "2017" ;
+        semweb:hasDescription   "two monkeys' foolishness and a villager's encounter with a demon." , "Animal minstrels narrate stories about a monkey's friendship with a crocodile" ;
+        semweb:hasDuration      "58 min" ;
+        semweb:hasListed_in     "Children & Family Movies" ;
+        semweb:hasRating        "TV-Y7" ;
+        semweb:hasRelease_year  "2010" ;
+        semweb:hasShow_id       80182481 .
+
+<http://www.example.org/I%20Fine...%20Thank%20You...%20Love%20You>
+        a                       semweb:movie ;
+        semweb:hasCast          "Preechaya Pongthananikorn" , "Sora Aoi" , "Popetorn Soonthornyanakij" , "Puttachat Pongsuchat" , "Sunny Suwanmethanont" ;
+        semweb:hasCountry       "Thailand" ;
+        semweb:hasDate_added    "September 5" , "2018" ;
+        semweb:hasDescription   "Desperate to go to the U.S. to win back his girlfriend" , "Yim hires a tutor to teach him English. But things don't go according to plan." ;
+        semweb:hasDirector      "Mez Tharatorn" ;
+        semweb:hasDuration      "116 min" ;
+        semweb:hasListed_in     "International Movies" , "Romantic Movies" , "Comedies" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2014" ;
+        semweb:hasShow_id       80158838 .
+
+semweb:Laddaland  a             semweb:movie ;
+        semweb:hasCast          "Athipich Chutiwatkajornchai" , "Pok Piyatida Woramusik" , "Sutatta Udomsilp" , "Deuntem Salitul" , "Saharat Sangkapreecha" , "Sahajak Boonthanakit" ;
+        semweb:hasCountry       "Thailand" ;
+        semweb:hasDate_added    "September 7" , "2018" ;
+        semweb:hasDescription   "When a family moves into an upscale housing development" , "they encounter a series of paranormal events that drive them to the edge of insanity." ;
+        semweb:hasDirector      "Sopon Sukdapisit" ;
+        semweb:hasDuration      "112 min" ;
+        semweb:hasListed_in     "International Movies" , "Horror Movies" ;
+        semweb:hasRating        "TV-MA" ;
+        semweb:hasRelease_year  "2011" ;
+        semweb:hasShow_id       70241607 .
+
+<http://www.example.org/Good%20People>
+        a                       semweb:movie ;
+        semweb:hasCast          "James Franco" , "Diarmaid Murtagh" , "Omar Sy" , "Oliver Dimsdale" , "Kate Hudson" , "Diana Hardcastle" , "Anna Friel" , "Sam Spruell" , "Tom Wilkinson" , "Michael Jibson" , "Thomas Arnold" ;
+        semweb:hasCountry       "United States" , "Sweden" , "United Kingdom" , "Denmark" ;
+        semweb:hasDate_added    "2017" , "September 8" ;
+        semweb:hasDescription   "A struggling couple can't believe their luck when they find a stash of money in the apartment of a neighbor who was recently murdered." ;
+        semweb:hasDirector      "Henrik Ruben Genz" ;
+        semweb:hasDuration      "90 min" ;
+        semweb:hasListed_in     "Action & Adventure" , "Thrillers" ;
+        semweb:hasRating        "R" ;
+        semweb:hasRelease_year  "2014" ;
+        semweb:hasShow_id       70304990 .
+
+<http://www.example.org/American%20Factory:%20A%20Conversation%20with%20the%20Obamas>
+        a                       semweb:movie ;
+        semweb:hasCast          "President Barack Obama" , "Michelle Obama" , "Steven Bognar" , "Julia Reichert" ;
+        semweb:hasDate_added    "September 5" , "2019" ;
+        semweb:hasDescription   "Barack and Michelle Obama talk with directors Steven Bognar and Julia Reichert about the documentary and the importance of storytelling." ;
+        semweb:hasDuration      "10 min" ;
+        semweb:hasListed_in     "Documentaries" ;
+        semweb:hasRating        "TV-G" ;
+        semweb:hasRelease_year  "2019" ;
+        semweb:hasShow_id       81176188 .
+
+<http://www.example.org/Castle%20of%20Stars>
+        a                       semweb:tvshow ;
+        semweb:hasCast          "Ornjira Lamwilai" , "Worrawech Danuwong" , "Yong Armchair" , "Chaiyapol Pupart" , "Nattapong Chartpong" , "Kornpassorn Duaysianklao" , "Akarat Nimitchai" , "Keerati Mahapreukpong" , "Jintanutda Lummakanon" ;
+        semweb:hasDate_added    "September 7" , "2018" ;
+        semweb:hasDescription   "each must learn how to live a good life." , "As four couples with different lifestyles go through the ebbs and flows of joy and sorrow" ;
+        semweb:hasDuration      "1 Season" ;
+        semweb:hasListed_in     "TV Comedies" , "Romantic TV Shows" , "International TV Shows" ;
+        semweb:hasRating        "TV-14" ;
+        semweb:hasRelease_year  "2015" ;
+        semweb:hasShow_id       80244601 .
