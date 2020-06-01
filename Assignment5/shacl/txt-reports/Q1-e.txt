@@ -1,0 +1,1 @@
+The constraint applied returns all those violations in triples which contains the predicates other than the mentioned predicate in Shape and ignored properties. Here, we did not mention the predicate schema:hasShowId, therefore it is in violation. However, if we mention this predicate in sh:ignoredProperties, then validation report conforms true.

@@ -1,0 +1,755 @@
+@prefix schema: <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#> .
+@prefix movie: <http://www.example.org/type/movie> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix semweb: <http://www.example.org/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix classification: <http://www.ontologydesignpatterns.org/cp/owl/classification.owl#> .
+@prefix type:  <http://www.example.org/type> .
+@prefix objectrole: <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#> .
+@prefix agentrole: <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tvshow: <http://www.example.org/type/tvshow> .
+@prefix event: <http://w3id.org/daselab/onto/event#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+[ a            sh:ValidationReport ;
+  sh:conforms  false ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/No%20Tomorrow> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/No%20Tomorrow>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/No%20Tomorrow>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Act%20of%20Vengeance> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Act%20of%20Vengeance>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Act%20of%20Vengeance>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Archibald's%20Next%20Big%20Thing> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Archibald's%20Next%20Big%20Thing>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Archibald's%20Next%20Big%20Thing>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Paradise%20Lost> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Paradise%20Lost>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Paradise%20Lost>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/6%20Years> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/6%20Years>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/6%20Years>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/We%20Bare%20Bears> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/We%20Bare%20Bears>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/We%20Bare%20Bears>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Article%2015> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Article%2015>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Article%2015>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Ben%2010> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Ben%2010>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Ben%2010>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Mak%20Cun> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Mak%20Cun>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Mak%20Cun>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Kidnapping%20Mr.%20Heineken> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Kidnapping%20Mr.%20Heineken>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Kidnapping%20Mr.%20Heineken>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Kill%20Me%20If%20You%20Dare> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Kill%20Me%20If%20You%20Dare>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Kill%20Me%20If%20You%20Dare>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/C%C3%83%C2%A9zanne%20et%20moi> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/C%C3%83%C2%A9zanne%20et%20moi>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/C%C3%83%C2%A9zanne%20et%20moi>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Laddaland ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Laddaland>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:Laddaland
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Good%20People> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Good%20People>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Good%20People>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Stonehearst%20Asylum> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Stonehearst%20Asylum>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Stonehearst%20Asylum>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Suckseed ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Suckseed>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:Suckseed
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Man%20Up> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Man%20Up>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Man%20Up>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Battle%20of%20Wits> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Battle%20of%20Wits>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Battle%20of%20Wits>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Part%20II> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Part%20II>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Part%20II>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Hell%20and%20Back> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Hell%20and%20Back>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Hell%20and%20Back>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Carrie%20Pilby> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Carrie%20Pilby>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Carrie%20Pilby>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Krish%20Trish%20and%20Baltiboy> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Krish%20Trish%20and%20Baltiboy>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Krish%20Trish%20and%20Baltiboy>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Sinking%20Of%20Van%20Der%20Wijck> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/The%20Sinking%20Of%20Van%20Der%20Wijck>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/The%20Sinking%20Of%20Van%20Der%20Wijck>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Norm%20of%20the%20North:%20King%20Sized%20Adventure> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Norm%20of%20the%20North:%20King%20Sized%20Adventure>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Norm%20of%20the%20North:%20King%20Sized%20Adventure>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Amanda%20Knox> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Amanda%20Knox>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Amanda%20Knox>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Manhattan%20Romance> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Manhattan%20Romance>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Manhattan%20Romance>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Most%20Assassinated%20Woman%20in%20the%20World> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/The%20Most%20Assassinated%20Woman%20in%20the%20World>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/The%20Most%20Assassinated%20Woman%20in%20the%20World>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Lovesick ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Lovesick>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:Lovesick
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20The%20Greatest%20Trick> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20The%20Greatest%20Trick>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20The%20Greatest%20Trick>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Shutter ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Shutter>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:Shutter
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Hard%20Tide> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Hard%20Tide>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Hard%20Tide>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Satu%20Hari> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Satu%20Hari>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Satu%20Hari>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Sierra%20Burgess%20Is%20A%20Loser> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Sierra%20Burgess%20Is%20A%20Loser>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Sierra%20Burgess%20Is%20A%20Loser>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Christiane%20Amanpour:%20Sex%20&%20Love%20Around%20the%20World> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Christiane%20Amanpour:%20Sex%20&%20Love%20Around%20the%20World>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Christiane%20Amanpour:%20Sex%20&%20Love%20Around%20the%20World>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Our%20Souls%20at%20Night> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Our%20Souls%20at%20Night>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Our%20Souls%20at%20Night>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Paul%20Hollywood's%20Big%20Continental%20Road%20Trip> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Paul%20Hollywood's%20Big%20Continental%20Road%20Trip>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Paul%20Hollywood's%20Big%20Continental%20Road%20Trip>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:PK ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/PK>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:PK
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Rolling%20Papers> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Rolling%20Papers>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Rolling%20Papers>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Monster%20High:%20Boo%20York,%20Boo%20York> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Monster%20High:%20Boo%20York,%20Boo%20York>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Monster%20High:%20Boo%20York,%20Boo%20York>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Phobia%202> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Phobia%202>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Phobia%202>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Comics%20of%20India> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Comics%20of%20India>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Comics%20of%20India>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Bangkok%20Traffic%20(Love)%20Story> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Bangkok%20Traffic%20(Love)%20Story>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Bangkok%20Traffic%20(Love)%20Story>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Love ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Love>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:Love
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Debt%20Collector> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/The%20Debt%20Collector>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/The%20Debt%20Collector>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Castle%20of%20Stars> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Castle%20of%20Stars>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Castle%20of%20Stars>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Transformers:%20Robots%20in%20Disguise> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Transformers:%20Robots%20in%20Disguise>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Transformers:%20Robots%20in%20Disguise>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Long%20Shot> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Long%20Shot>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Long%20Shot>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Animal%20World> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Animal%20World>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Animal%20World>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Black%20Panther> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Black%20Panther>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Black%20Panther>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Ee%20Nagaraniki%20Emaindi> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Ee%20Nagaraniki%20Emaindi>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Ee%20Nagaraniki%20Emaindi>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Automata ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Automata>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:Automata
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Care%20of%20Kancharapalem> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Care%20of%20Kancharapalem>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Care%20of%20Kancharapalem>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Spy> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/The%20Spy>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/The%20Spy>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Runner> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/The%20Runner>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/The%20Runner>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Big%20Miracle> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Big%20Miracle>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Big%20Miracle>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Next%20Gen> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Next%20Gen>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Next%20Gen>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Eighties> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/The%20Eighties>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/The%20Eighties>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Gerald's%20Game> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Gerald's%20Game>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Gerald's%20Game>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Transformers%20Prime> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Transformers%20Prime>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Transformers%20Prime>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Best%20Friends%20Forever> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Best%20Friends%20Forever>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Best%20Friends%20Forever>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Fire%20Chasers> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Fire%20Chasers>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Fire%20Chasers>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/TUNA%20GIRL> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/TUNA%20GIRL>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/TUNA%20GIRL>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/One%20Day> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/One%20Day>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/One%20Day>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Watchman ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Watchman>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:Watchman
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Single ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Single>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:Single
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Mayor> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/The%20Mayor>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/The%20Mayor>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Frequency ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Frequency>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:Frequency
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:5CM ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/5CM>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:5CM
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/I%20Fine...%20Thank%20You...%20Love%20You> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/I%20Fine...%20Thank%20You...%20Love%20You>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/I%20Fine...%20Thank%20You...%20Love%20You>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Moonwalkers ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Moonwalkers>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:Moonwalkers
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Lessons%20from%20a%20School%20Shooting:%20Notes%20from%20Dunblane> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Lessons%20from%20a%20School%20Shooting:%20Notes%20from%20Dunblane>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Lessons%20from%20a%20School%20Shooting:%20Notes%20from%20Dunblane>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Oversmartness%20Never%20Pays> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Oversmartness%20Never%20Pays>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Oversmartness%20Never%20Pays>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Apaches ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Apaches>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:Apaches
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Cultivating%20the%20Seas:%20History%20and%20Future%20of%20the%20Full-Cycle%20Cultured%20Kindai%20Tuna> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Cultivating%20the%20Seas:%20History%20and%20Future%20of%20the%20Full-Cycle%20Cultured%20Kindai%20Tuna>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Cultivating%20the%20Seas:%20History%20and%20Future%20of%20the%20Full-Cycle%20Cultured%20Kindai%20Tuna>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Seventies> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/The%20Seventies>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/The%20Seventies>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/First%20and%20Last> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/First%20and%20Last>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/First%20and%20Last>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Elstree%201976> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Elstree%201976>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Elstree%201976>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/American%20Factory:%20A%20Conversation%20with%20the%20Obamas> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/American%20Factory:%20A%20Conversation%20with%20the%20Obamas>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/American%20Factory:%20A%20Conversation%20with%20the%20Obamas>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Hold%20the%20Dark> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Hold%20the%20Dark>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Hold%20the%20Dark>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Two%20Catalonias> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Two%20Catalonias>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Two%20Catalonias>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Bobby%20Sands:%2066%20Days> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Bobby%20Sands:%2066%20Days>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Bobby%20Sands:%2066%20Days>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Made%20in%20Mexico> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Made%20in%20Mexico>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Made%20in%20Mexico>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%203rd%20Eye> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/The%203rd%20Eye>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/The%203rd%20Eye>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Out%20of%20Thin%20Air> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Out%20of%20Thin%20Air>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/Out%20of%20Thin%20Air>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:ATM ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/ATM>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:ATM
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Saawan ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Saawan>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:Saawan
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Domino ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/Domino>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      semweb:Domino
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/City%20of%20Joy> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/City%20of%20Joy>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/City%20of%20Joy>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Royal%20House%20of%20Windsor> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/The%20Royal%20House%20of%20Windsor>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/The%20Royal%20House%20of%20Windsor>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Heretics> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/The%20Heretics>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/The%20Heretics>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20World%20We%20Make> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/The%20World%20We%20Make>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/The%20World%20We%20Make>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Nineties> ;
+                 sh:resultMessage              "Xone has 0 conforming shapes at focusNode <http://www.example.org/The%20Nineties>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:XoneConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1b ;
+                 sh:value                      <http://www.example.org/The%20Nineties>
+               ]
+] .

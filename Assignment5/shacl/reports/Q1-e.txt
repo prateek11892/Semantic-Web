@@ -1,0 +1,910 @@
+@prefix schema: <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#> .
+@prefix movie: <http://www.example.org/type/movie> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix semweb: <http://www.example.org/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix classification: <http://www.ontologydesignpatterns.org/cp/owl/classification.owl#> .
+@prefix type:  <http://www.example.org/type> .
+@prefix objectrole: <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#> .
+@prefix agentrole: <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tvshow: <http://www.example.org/type/tvshow> .
+@prefix event: <http://w3id.org/daselab/onto/event#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+[ a            sh:ValidationReport ;
+  sh:conforms  false ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Domino ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80200087" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80200087
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Shutter ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 70062814" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      70062814
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Suckseed ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80158839" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80158839
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Christiane%20Amanpour:%20Sex%20&%20Love%20Around%20the%20World> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81011682" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81011682
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Single ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81002864" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81002864
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/City%20of%20Joy> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80203094" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80203094
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Satu%20Hari> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80180449" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80180449
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Monster%20High:%20Boo%20York,%20Boo%20York> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80019931" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80019931
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Eighties> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80128317" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80128317
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Phobia%202> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 70142798" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      70142798
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/First%20and%20Last> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80190843" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80190843
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Seventies> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80030186" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80030186
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Our%20Souls%20at%20Night> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80104068" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80104068
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Heretics> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81173255" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81173255
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Sinking%20Of%20Van%20Der%20Wijck> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81002866" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81002866
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Next%20Gen> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80988892" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80988892
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Battle%20of%20Wits> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80182483" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80182483
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Paul%20Hollywood's%20Big%20Continental%20Road%20Trip> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80199032" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80199032
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/One%20Day> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81016045" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81016045
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:5CM ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81002850" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81002850
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/C%C3%83%C2%A9zanne%20et%20moi> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80152447" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80152447
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Paradise%20Lost> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81011955" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81011955
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Made%20in%20Mexico> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80201933" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80201933
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Transformers:%20Robots%20in%20Disguise> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80058654" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80058654
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Watchman ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81155784" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81155784
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:ATM ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80159880" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80159880
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Cultivating%20the%20Seas:%20History%20and%20Future%20of%20the%20Full-Cycle%20Cultured%20Kindai%20Tuna> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81053893" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81053893
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Part%20II> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80182481" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80182481
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Oversmartness%20Never%20Pays> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80182597" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80182597
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Castle%20of%20Stars> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80244601" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80244601
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Stonehearst%20Asylum> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 70304988" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      70304988
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Fabrizio%20Copano:%20Solo%20pienso%20en%20mi> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80164077" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80164077
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/American%20Factory:%20A%20Conversation%20with%20the%20Obamas> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81176188" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81176188
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%203rd%20Eye> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81016750" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81016750
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Bangkok%20Traffic%20(Love)%20Story> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81016044" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81016044
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Adam%20Ruins%20Everything> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80996949" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80996949
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Laddaland ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 70241607" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      70241607
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Archibald's%20Next%20Big%20Thing> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80221550" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80221550
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Lovesick ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80184358" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80184358
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Manhattan%20Romance> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80060297" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80060297
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Marc%20Maron:%20Too%20Real> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80177405" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80177405
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Man%20Up> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80052612" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80052612
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Lessons%20from%20a%20School%20Shooting:%20Notes%20from%20Dunblane> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81001809" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81001809
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Good%20People> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 70304990" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      70304990
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Two%20Catalonias> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80992039" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80992039
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Bobby%20Sands:%2066%20Days> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80126507" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80126507
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Love ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80057969" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80057969
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/No%20Tomorrow> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80113482" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80113482
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Elstree%201976> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80095641" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80095641
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Moonwalkers ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80046728" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80046728
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Nineties> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81027384" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81027384
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Hold%20the%20Dark> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80157072" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80157072
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Fire%20Chasers> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80117902" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80117902
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Article%2015> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81154455" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81154455
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/TUNA%20GIRL> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81053892" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81053892
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:PK ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 70303496" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      70303496
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20World%20We%20Make> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81078908" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81078908
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Comics%20of%20India> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80182482" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80182482
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Mayor> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80187061" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80187061
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Most%20Assassinated%20Woman%20in%20the%20World> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80159586" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80159586
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/#realityhigh> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80125979" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80125979
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Ben%2010> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80239337" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80239337
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/I%20Fine...%20Thank%20You...%20Love%20You> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80158838" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80158838
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20The%20Greatest%20Trick> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80182621" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80182621
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Spy> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80178151" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80178151
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Rolling%20Papers> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80046727" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80046727
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Care%20of%20Kancharapalem> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81113928" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81113928
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Gerald's%20Game> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80128722" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80128722
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Out%20of%20Thin%20Air> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80119349" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80119349
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Carrie%20Pilby> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80147760" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80147760
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Hell%20and%20Back> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80058026" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80058026
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Kill%20Me%20If%20You%20Dare> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81132437" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81132437
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Kidnapping%20Mr.%20Heineken> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 70299204" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      70299204
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Krish%20Trish%20and%20Baltiboy> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80182480" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80182480
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Long%20Shot> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80182115" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80182115
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Sierra%20Burgess%20Is%20A%20Loser> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80239639" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80239639
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Debt%20Collector> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80198585" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80198585
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Norm%20of%20the%20North:%20King%20Sized%20Adventure> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81145628" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81145628
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Mo%20Gilligan:%20Momentum> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81054495" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81054495
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Amanda%20Knox> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80081155" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80081155
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Saawan ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81160036" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81160036
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Runner> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80057700" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80057700
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Big%20Miracle> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 70212504" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      70212504
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Act%20of%20Vengeance> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 70233894" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      70233894
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/6%20Years> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80045922" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80045922
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Black%20Panther> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80201906" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80201906
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Transformers%20Prime> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 70234439" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      70234439
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Joaqu%C3%83%C2%ADn%20Reyes:%20Una%20y%20no%20m%C3%83%C2%A1s> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80169755" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80169755
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Frequency ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80113641" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80113641
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Krish%20Trish%20and%20Baltiboy:%20Best%20Friends%20Forever> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80182596" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80182596
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Mak%20Cun> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80163293" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80163293
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Animal%20World> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81004470" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81004470
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Hard%20Tide> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80162141" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80162141
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Ee%20Nagaraniki%20Emaindi> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 81052275" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      81052275
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Apaches ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80163890" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80163890
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  semweb:Automata ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 70304989" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      70304989
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/We%20Bare%20Bears> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80116921" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80116921
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/The%20Royal%20House%20of%20Windsor> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80181555" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80181555
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://www.example.org/Jandino:%20Whatever%20it%20Takes> ;
+                 sh:resultMessage              "Closed[http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDuration][http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasTitle, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDescription, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#atPlace, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#addedOn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasDirector, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#listedIn, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasRating, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasCast, http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#releasedYear] Property = <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#hasShowId> : Object = 80117401" ;
+                 sh:resultPath                 schema:hasShowId ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                semweb:ShapeQ1 ;
+                 sh:value                      80117401
+               ]
+] .

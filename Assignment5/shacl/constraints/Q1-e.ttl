@@ -1,0 +1,18 @@
+@prefix schema: <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#> .
+@prefix sh:<http://www.w3.org/ns/shacl#>.
+@prefix xsd:<http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>.
+@prefix semweb: <http://www.example.org/> .
+
+semweb:ShapeQ1
+a sh:NodeShape ;
+sh:targetClass semweb:type;
+sh:property[
+	sh:path schema:hasDuration ;
+	sh:datatype xsd:string ;
+	sh:pattern "^[a-zA-Z0-9\\s*]+$";
+	sh:flags "i" ;
+];
+sh:closed true;
+sh:ignoredProperties ( schema:hasRating schema:hasTitle schema:releasedYear schema:listedIn schema:hasRating schema:hasDescription schema:atPlace schema:addedOn rdf:type schema:hasDirector schema:hasCast ).

@@ -1,0 +1,1 @@
+The constraint applied returns all those violations in triples which are listed in both the genre, Comedy and Romantic.

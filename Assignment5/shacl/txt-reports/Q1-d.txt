@@ -1,0 +1,1 @@
+The constraint applied returns all those violations in triples which are not an Actor or which does not possess an IRI. However, since we are having the type of all the actors as schema:Actor and they all possess an IRI, the validation report conforms true.

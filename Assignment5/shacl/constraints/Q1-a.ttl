@@ -1,0 +1,23 @@
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix mov: <http://www.movie.org/>.
+@prefix semweb: <http://www.example.org/> .
+
+
+schema:PersonShape
+    a sh:NodeShape ;
+    sh:targetClass semweb:type;
+    sh:property[
+		sh:path schema:hasDirector ;
+		sh:minCount 1;
+		sh:datatype xsd:string;
+    ];
+    sh:property[
+		sh:path schema:atPlace ;
+		sh:minCount 1 ;
+		sh:datatype xsd:string;
+] .
