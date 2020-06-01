@@ -1,0 +1,18 @@
+{
+  "head": {
+    "vars": [ "title" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "title": { "type": "literal" , "value": "6 Years" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "ATM" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Good People" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "head": {
+    "vars": [ "title" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "title": { "type": "literal" , "value": "Krish Trish and Baltiboy: The Greatest Trick" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Krish Trish and Baltiboy: Battle of Wits" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Krish Trish and Baltiboy: Comics of India" }
+      }
+    ]
+  }
+}

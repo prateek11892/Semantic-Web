@@ -1,0 +1,87 @@
+Q.2.
+
+a)Retrieve the name of all the movies that have a director with the last name as “Shetty”. If present, retrieve the name of the co-director as well.
+
+PREFIX semweb:<http://www.example.org/>
+PREFIX schema: <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#> 
+
+SELECT ?title ?director ?codirector
+FROM <http://iiitd.ac.in/sweb/MT19070/newmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/MT19070/oldmoviesgraph>
+WHERE {
+  ?subject schema:hasTitle ?title.
+  ?subject schema:hasDirector ?director
+  FILTER regex(?director, "Shetty$").
+  OPTIONAL {?subject schema:hasDirector ?codirector 
+    FILTER (!regex(?codirector, "Shetty$"))}
+}
+
+b)Retrieve the names of all the movies that are categorized as either a comedy or a drama or both.
+
+PREFIX semweb:<http://www.example.org/>
+PREFIX schema: <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#> 
+
+SELECT ?title ?genre
+FROM <http://iiitd.ac.in/sweb/MT19070/newmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/MT19070/oldmoviesgraph>
+WHERE {
+  ?subject schema:hasTitle ?title.
+  ?subject schema:listedIn ?genre
+  FILTER (regex(?genre, "Comedy|Comedies", "i") || regex(?genre, "Drama","i")).
+}
+
+c)Retrieve the names of all the movies that are released in the United States between the year 2010 and 2020 and that have the word “couple” in their description.
+
+PREFIX semweb:<http://www.example.org/>
+PREFIX schema: <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#>
+
+SELECT ?title 
+FROM <http://iiitd.ac.in/sweb/MT19070/newmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/MT19070/oldmoviesgraph>
+WHERE {
+  ?subject schema:hasTitle ?title.
+  ?subject schema:atPlace ?country
+  FILTER regex(?country, "United States", "i").
+  ?subject schema:releasedYear ?year
+  FILTER(?year<="2020" && ?year>="2010").
+  ?subject schema:hasDescription ?description
+  FILTER regex(?description,"couple","i").
+}
+
+d)Write a SPARQL query involving property paths to retrieve two movies that have at least one director in common and have a run time of greater than or equal to 60 minutes.
+
+PREFIX schema: <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#> 
+
+SELECT DISTINCT ?title1 ?title2
+FROM <http://iiitd.ac.in/sweb/MT19070/newmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/MT19070/oldmoviesgraph>
+WHERE {
+	?movie1 schema:hasTitle ?title1.
+	?movie2 schema:hasTitle ?title2.
+	?movie1 schema:hasDirector{1,}/^schema:hasDirector{,1} ?movie2
+	FILTER(?movie1 != ?movie2  && STR(IRI(?movie1)) < STR(IRI(?movie2))).
+	?movie1 schema:hasDuration ?duration1
+	FILTER(?duration1>="60 min").
+	?movie2 schema:hasDuration ?duration
+	FILTER(?duration>="60 min").
+}
+
+
+
+e)Construct a SPARQL query of your choice on your movie dataset that satisfies the following star pattern (join on the subject).
+
+PREFIX semweb:<http://www.example.org/>
+PREFIX schema: <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#>
+
+SELECT DISTINCT ?title
+FROM <http://iiitd.ac.in/sweb/MT19070/newmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/MT19070/oldmoviesgraph>
+WHERE {  
+  ?movie schema:hasTitle ?title.
+  ?movie schema:hasCast "Baba Sehgal".
+  ?movie schema:hasDuration ?duration
+  FILTER(?duration>="60 min").
+  ?movie schema:listedIn "Children & Family Movies".
+  ?movie schema:hasDirector ?director
+  FILTER regex(?director, "Shetty", "i").
+}

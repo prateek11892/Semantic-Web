@@ -1,0 +1,245 @@
+{
+  "head": {
+    "vars": [ "title" , "genre" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "title": { "type": "literal" , "value": "Care of Kancharapalem" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Care of Kancharapalem" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Our Souls at Night" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Paradise Lost" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Adam Ruins Everything" } ,
+        "genre": { "type": "literal" , "value": "TV Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Carrie Pilby" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Carrie Pilby" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "#realityhigh" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Frequency" } ,
+        "genre": { "type": "literal" , "value": "TV Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Watchman" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Watchman" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "No Tomorrow" } ,
+        "genre": { "type": "literal" , "value": "TV Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "No Tomorrow" } ,
+        "genre": { "type": "literal" , "value": "TV Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Next Gen" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "TUNA GIRL" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "The Mayor" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "The World We Make" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "JoaquÃ­n Reyes: Una y no mÃ¡s" } ,
+        "genre": { "type": "literal" , "value": "Stand-Up Comedy" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Fabrizio Copano: Solo pienso en mi" } ,
+        "genre": { "type": "literal" , "value": "Stand-Up Comedy" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "The Most Assassinated Woman in the World" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Ee Nagaraniki Emaindi" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "CÃ©zanne et moi" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Marc Maron: Too Real" } ,
+        "genre": { "type": "literal" , "value": "Stand-Up Comedy" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Jandino: Whatever it Takes" } ,
+        "genre": { "type": "literal" , "value": "Stand-Up Comedy" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "The Spy" } ,
+        "genre": { "type": "literal" , "value": "TV Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Saawan" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Kill Me If You Dare" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Mo Gilligan: Momentum" } ,
+        "genre": { "type": "literal" , "value": "Stand-Up Comedy" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Article 15" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Sierra Burgess Is A Loser" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "One Day" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Norm of the North: King Sized Adventure" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Hold the Dark" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Archibald's Next Big Thing" } ,
+        "genre": { "type": "literal" , "value": "TV Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "We Bare Bears" } ,
+        "genre": { "type": "literal" , "value": "TV Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Mak Cun" } ,
+        "genre": { "type": "literal" , "value": "TV Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Mak Cun" } ,
+        "genre": { "type": "literal" , "value": "TV Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Love" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Manhattan Romance" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "PK" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "PK" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Hard Tide" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "6 Years" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "ATM" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Single" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "I Fine... Thank You... Love You" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Suckseed" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "The Sinking Of Van Der Wijck" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Kidnapping Mr. Heineken" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Castle of Stars" } ,
+        "genre": { "type": "literal" , "value": "TV Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Moonwalkers" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "5CM" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Big Miracle" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "The Runner" } ,
+        "genre": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Lovesick" } ,
+        "genre": { "type": "literal" , "value": "TV Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Hell and Back" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Bangkok Traffic (Love) Story" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Satu Hari" } ,
+        "genre": { "type": "literal" , "value": "TV Dramas" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Man Up" } ,
+        "genre": { "type": "literal" , "value": "Comedies" }
+      }
+    ]
+  }
+}

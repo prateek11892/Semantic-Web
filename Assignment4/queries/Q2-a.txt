@@ -1,0 +1,32 @@
+{
+  "head": {
+    "vars": [ "title" , "director" , "codirector" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "title": { "type": "literal" , "value": "Krish Trish and Baltiboy: Best Friends Forever" } ,
+        "director": { "type": "literal" , "value": "Tilak Shetty" } ,
+        "codirector": { "type": "literal" , "value": "Munjal Shroff" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Krish Trish and Baltiboy: Oversmartness Never Pays" } ,
+        "director": { "type": "literal" , "value": "Tilak Shetty" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Krish Trish and Baltiboy: The Greatest Trick" } ,
+        "director": { "type": "literal" , "value": "Tilak Shetty" } ,
+        "codirector": { "type": "literal" , "value": "Munjal Shroff" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Krish Trish and Baltiboy: Battle of Wits" } ,
+        "director": { "type": "literal" , "value": "Tilak Shetty" } ,
+        "codirector": { "type": "literal" , "value": "Munjal Shroff" }
+      } ,
+      {
+        "title": { "type": "literal" , "value": "Krish Trish and Baltiboy: Comics of India" } ,
+        "director": { "type": "literal" , "value": "Tilak Shetty" }
+      }
+    ]
+  }
+}

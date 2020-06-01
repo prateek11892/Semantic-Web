@@ -1,0 +1,49 @@
+{
+  "head": {
+    "vars": [ "title1" , "title2" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "title1": { "type": "literal" , "value": "Krish Trish and Baltiboy: Best Friends Forever" } ,
+        "title2": { "type": "literal" , "value": "Krish Trish and Baltiboy: Oversmartness Never Pays" }
+      } ,
+      {
+        "title1": { "type": "literal" , "value": "Krish Trish and Baltiboy: Best Friends Forever" } ,
+        "title2": { "type": "literal" , "value": "Krish Trish and Baltiboy: The Greatest Trick" }
+      } ,
+      {
+        "title1": { "type": "literal" , "value": "Krish Trish and Baltiboy: Best Friends Forever" } ,
+        "title2": { "type": "literal" , "value": "Krish Trish and Baltiboy: Comics of India" }
+      } ,
+      {
+        "title1": { "type": "literal" , "value": "Krish Trish and Baltiboy: Oversmartness Never Pays" } ,
+        "title2": { "type": "literal" , "value": "Krish Trish and Baltiboy: The Greatest Trick" }
+      } ,
+      {
+        "title1": { "type": "literal" , "value": "Krish Trish and Baltiboy: Battle of Wits" } ,
+        "title2": { "type": "literal" , "value": "Krish Trish and Baltiboy: Best Friends Forever" }
+      } ,
+      {
+        "title1": { "type": "literal" , "value": "Krish Trish and Baltiboy: Battle of Wits" } ,
+        "title2": { "type": "literal" , "value": "Krish Trish and Baltiboy: Oversmartness Never Pays" }
+      } ,
+      {
+        "title1": { "type": "literal" , "value": "Krish Trish and Baltiboy: Battle of Wits" } ,
+        "title2": { "type": "literal" , "value": "Krish Trish and Baltiboy: The Greatest Trick" }
+      } ,
+      {
+        "title1": { "type": "literal" , "value": "Krish Trish and Baltiboy: Battle of Wits" } ,
+        "title2": { "type": "literal" , "value": "Krish Trish and Baltiboy: Comics of India" }
+      } ,
+      {
+        "title1": { "type": "literal" , "value": "Krish Trish and Baltiboy: Comics of India" } ,
+        "title2": { "type": "literal" , "value": "Krish Trish and Baltiboy: Oversmartness Never Pays" }
+      } ,
+      {
+        "title1": { "type": "literal" , "value": "Krish Trish and Baltiboy: Comics of India" } ,
+        "title2": { "type": "literal" , "value": "Krish Trish and Baltiboy: The Greatest Trick" }
+      }
+    ]
+  }
+}
