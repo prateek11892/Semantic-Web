@@ -86,7 +86,7 @@ public class Q4 {
 				}
 			}
 			model.setNsPrefixes(PrefixMapping.Standard);
-			model.write(new FileOutputStream("A1_MT19070_Q4.ttl"), "TURTLE");					// write to a turtle file
+			model.write(new FileOutputStream("A1_Q4.ttl"), "TURTLE");					// write to a turtle file
 			//System.out.println(URIref.decode("Joaqu%C3%83%C2%ADn%20Reyes:%20Una%20y%20no%20m%C3%83%C2%A1s"));
 		} catch (Exception e) {
 			e.printStackTrace();
