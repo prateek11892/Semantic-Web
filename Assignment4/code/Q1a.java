@@ -91,7 +91,7 @@ public class Ont extends Object {
         
         try {
         	returnedModel.setNsPrefixes(PrefixMapping.Standard);
-			returnedModel.write(new FileOutputStream("A4_MT19070_Q4.ttl"), "TURTLE");
+			returnedModel.write(new FileOutputStream("A4_Q4.ttl"), "TURTLE");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -247,7 +247,7 @@ public class Ont extends Object {
 				}
 			}
 			//model.setNsPrefixes(PrefixMapping.Standard);
-			//model.write(new FileOutputStream("A3_MT19070_Q4.ttl"), "TURTLE");					// write to a turtle file
+			//model.write(new FileOutputStream("A3_Q4.ttl"), "TURTLE");					// write to a turtle file
 			//System.out.println(URIref.decode("Joaqu%C3%83%C2%ADn%20Reyes:%20Una%20y%20no%20m%C3%83%C2%A1s"));
 		} catch (Exception e) {
 			e.printStackTrace();
