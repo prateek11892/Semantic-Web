@@ -6,8 +6,8 @@ PREFIX semweb:<http://www.example.org/>
 PREFIX schema: <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#> 
 
 SELECT ?title ?director ?codirector
-FROM <http://iiitd.ac.in/sweb/MT19070/newmoviesgraph>
-FROM <http://iiitd.ac.in/sweb/MT19070/oldmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/XYZ1010/newmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/XYZ1010/oldmoviesgraph>
 WHERE {
   ?subject schema:hasTitle ?title.
   ?subject schema:hasDirector ?director
@@ -22,8 +22,8 @@ PREFIX semweb:<http://www.example.org/>
 PREFIX schema: <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#> 
 
 SELECT ?title ?genre
-FROM <http://iiitd.ac.in/sweb/MT19070/newmoviesgraph>
-FROM <http://iiitd.ac.in/sweb/MT19070/oldmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/XYZ1010/newmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/XYZ1010/oldmoviesgraph>
 WHERE {
   ?subject schema:hasTitle ?title.
   ?subject schema:listedIn ?genre
@@ -36,8 +36,8 @@ PREFIX semweb:<http://www.example.org/>
 PREFIX schema: <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#>
 
 SELECT ?title 
-FROM <http://iiitd.ac.in/sweb/MT19070/newmoviesgraph>
-FROM <http://iiitd.ac.in/sweb/MT19070/oldmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/XYZ1010/newmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/XYZ1010/oldmoviesgraph>
 WHERE {
   ?subject schema:hasTitle ?title.
   ?subject schema:atPlace ?country
@@ -53,8 +53,8 @@ d)Write a SPARQL query involving property paths to retrieve two movies that have
 PREFIX schema: <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#> 
 
 SELECT DISTINCT ?title1 ?title2
-FROM <http://iiitd.ac.in/sweb/MT19070/newmoviesgraph>
-FROM <http://iiitd.ac.in/sweb/MT19070/oldmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/XYZ1010/newmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/XYZ1010/oldmoviesgraph>
 WHERE {
 	?movie1 schema:hasTitle ?title1.
 	?movie2 schema:hasTitle ?title2.
@@ -74,8 +74,8 @@ PREFIX semweb:<http://www.example.org/>
 PREFIX schema: <http://www.semanticweb.org/prateekagarwal/ontologies/2020/3/untitled-ontology-11#>
 
 SELECT DISTINCT ?title
-FROM <http://iiitd.ac.in/sweb/MT19070/newmoviesgraph>
-FROM <http://iiitd.ac.in/sweb/MT19070/oldmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/XYZ1010/newmoviesgraph>
+FROM <http://iiitd.ac.in/sweb/XYZ1010/oldmoviesgraph>
 WHERE {  
   ?movie schema:hasTitle ?title.
   ?movie schema:hasCast "Baba Sehgal".
